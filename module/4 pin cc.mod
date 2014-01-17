@@ -1,0 +1,59 @@
+PCBNEW-LibModule-V1  31-Jul-12 5:11:36 PM
+# encoding utf-8
+$INDEX
+SIL-2-2
+$EndINDEX
+$MODULE SIL-2-2
+Po 0 0 0 15 5017CA73 5017CA2A ~~
+Li SIL-2-2
+Cd Connecteur 3 pins
+Kw CONN DEV
+Sc 5017CA2A
+AR SIL-2
+Op 0 0 0
+T0 0 -500 100 100 0 25 N V 21 N "SIL-4(mod)"
+T1 -25 -675 100 100 0 25 N I 21 N "Val**"
+DS 800 -300 -875 -300 150 21
+DS -875 -300 -875 325 150 21
+DS -875 325 875 325 150 21
+DS 875 325 875 -300 150 21
+$PAD
+Sh "2" R 354 300 0 0 0
+Dr 0 0 0
+At SMD N 0088FFFF
+Ne 0 ""
+Po -200 0
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "3" R 354 300 0 0 0
+Dr 0 0 0
+At SMD N 0088FFFF
+Ne 0 ""
+Po 200 0
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "1" O 354 300 0 0 0
+Dr 0 0 0
+At SMD N 0088FFFF
+Ne 0 ""
+Po -600 0
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "4" R 354 300 0 0 0
+Dr 0 0 0
+At SMD N 0088FFFF
+Ne 0 ""
+Po 600 0
+.LocalClearance 20
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  SIL-2-2
+$EndLIBRARY

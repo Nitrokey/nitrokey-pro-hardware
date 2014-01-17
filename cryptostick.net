@@ -1,0 +1,234 @@
+# EESchema Netlist Version 1.1 created  29-Mar-13 7:41:49 PM
+(
+ ( /4E2CD2B1 c_0402 C1 27pF
+  ( 1 /OSC_IN )
+  ( 2 GND )
+ )
+ ( /4E2CD2C4 c_0402 C2 27pF
+  ( 1 /OSC_OUT )
+  ( 2 GND )
+ )
+ ( /4E2D6A2C c_0402 C3 0.1uF
+  ( 1 /NRST )
+  ( 2 GND )
+ )
+ ( /4E2D63F9 c_0402 C4 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /500508D3 c_0402 C5 0.1uF
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /4E2D167B c_0402 C6 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4E2D6573 c_0402 C7 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4E2D1296 c_0402 C8 0.1uF
+  ( 1 GND )
+  ( 2 +3.3V )
+ )
+ ( /4E2D79BC c_0402 C9 4.7uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /4E2CD9BD c_0402 C10 0.01uF
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /4E2D79C8 c_0402 C11 4.7uF
+  ( 1 /VBUS )
+  ( 2 GND )
+ )
+ ( /4F801DB4 KPHBM-2012SURKCGKC D1 DUAL_LED
+  ( 1 N-000030 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000038 )
+ )
+ ( /500506A8 molex 78646-3001 J1 SIM_JACKET
+  ( 1 N-000039 )
+  ( 2 N-000019 )
+  ( 3 N-000008 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 N-000036 )
+  ( 8 ? )
+ )
+ ( /4E27DE01 USB-A-PLUG J2 USB_A
+  ( 1 /VBUS )
+  ( 2 /D-_PLUG )
+  ( 3 /D+_PLUG )
+  ( 4 GND )
+ )
+ ( /4F507292 SIL-2-2 P1 CONN_4
+  ( 1 +3.3V )
+  ( 2 GND )
+  ( 3 /SWCLK )
+  ( 4 /SWDIO )
+ )
+ ( /51559134 boot P2 CONN_2
+  ( 1 N-000040 )
+  ( 2 +3.3V )
+ )
+ ( /4E2D766E r_0402 R1 510
+  ( 1 N-000030 )
+  ( 2 N-000029 )
+ )
+ ( /4F801E05 r_0402 R2 510
+  ( 1 N-000038 )
+  ( 2 N-000014 )
+ )
+ ( /5155A7EA r_0402 R3 510
+  ( 1 GND )
+  ( 2 N-000040 )
+ )
+ ( /4E68666C QFN36 U1 STM32F103TB
+  ( 1 +3.3V )
+  ( 2 /OSC_IN )
+  ( 3 /OSC_OUT )
+  ( 4 /NRST )
+  ( 5 GND )
+  ( 6 +3.3V )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 N-000029 )
+  ( 15 N-000014 )
+  ( 16 ? )
+  ( 17 N-000040 )
+  ( 18 GND )
+  ( 19 +3.3V )
+  ( 20 N-000008 )
+  ( 21 ? )
+  ( 22 /USB_EN )
+  ( 23 /D- )
+  ( 24 /D+ )
+  ( 25 /SWDIO )
+  ( 26 GND )
+  ( 27 +3.3V )
+  ( 28 /SWCLK )
+  ( 29 ? )
+  ( 30 N-000019 )
+  ( 31 N-000039 )
+  ( 32 N-000039 )
+  ( 33 N-000036 )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 GND )
+  ( 37 GND )
+ )
+ ( /4E2CD88E TSOT23-5 U2 CAT6217-330
+  ( 1 /VBUS )
+  ( 2 GND )
+  ( 3 /VBUS )
+  ( 4 N-000027 )
+  ( 5 +3.3V )
+ )
+ ( /4E521576 SOT363 U3 NUF2221W1
+  ( 1 /D+ )
+  ( 2 GND )
+  ( 3 /D- )
+  ( 4 /D-_PLUG )
+  ( 5 /USB_EN )
+  ( 6 /D+_PLUG )
+ )
+ ( /4E82CD9F ABM8G X1 12MHz
+  ( 1 /OSC_IN )
+  ( 2 /OSC_OUT )
+  ( 3 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component U1
+ LQFP48
+$endlist
+$component U3
+ SOT23-6
+$endlist
+$endfootprintlist
+}

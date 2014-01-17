@@ -1,0 +1,240 @@
+2014-01-06 Andrzej Surowiec
+
+    * Extended the PCB edge to the right to meet connector specification
+    * Centered the USB plug, rerouted the USB traces where needed
+    * Moved around part labels, so that they are visible and unambiguous
+    * Changed name on silkscreen to RC7
+    * Removed solder paste from the programming pads
+
+2013-11-09 Andrzej Surowiec
+
+    * Fixed the USB connector footprint - soldermask and solder paste were on the wrong layer
+    * Rerouted traces below the chip, on the back layer, to go around the thermal pad
+    * Added 9 vias to the QFN footprint, 0,3mm drill with 0,05mm exposed copper around via on the bottom
+    * Added copper fill on the back layer below the QFN, connected to GND
+    * Changed global solder mask clearance to 0,05mm
+    * Changed global solder paste clearance ratio to -10%
+
+2013-03-31  Jan Suhr
+
+	* Replace the SIM socket with this one: Molex 78646-3001.
+http://www.digikey.com/product-detail/en/0786463001/WM9364TR-ND/3312830?WT.z_cid=ref_octopart_dkc_buynow
+	* PCB size reduced
+	* Two contact points for boot loader added.
+
+2013-03-05 Jan Suhr
+
+	* Crypto Stick Professional RC4:
+	* This LDO in small SNT-6A package is used: http://de.farnell.com/jsp/search/productdetail.jsp?id=1606987
+	* The USB plug has been replaced by 48037-2200 and positioned on the other side of the PCB.
+http://www.molex.com/molex/products/datasheet.jsp?part=active/0480372200_IO_CONNECTORS.xml
+	* JTAG connector removed.
+	* SWD contact points with 1mm pitch added.
+	* Two-color SMD LED used and located to the center of the edge. PB1 used as additional PIN. Part Number: KPHBM-2012SURKCGKC http://datasheet.octopart.com/KPHBM-2012SURKCGKC-Kingbright-datasheet-5463798.pdf (TODO: Verify name and wiring of LED. Alternative LED: LNJ115W87RA1)
+	* Flash has been removed
+	* PCB size reduced by shifting components and double-sided design applied
+	* Small ESD suppressors on D+/D- lines to increase reliability of USB interface
+	* The text "FST-01" has been changed to "Crypto Stick Professional RC1" and been relocated to the bottom side.
+	* Shielding grounds has been placed on both sides.
+	* SIM adapter SF50S006V4AR1500 added to backside. http://www.digikey.sg/product-detail/en/SF50S006V4AR1500/670-2610-2-ND/2833539 (ALTERNATIVE USED IN PREVIOUS VERSION: 009162006206175 http://www.avx.com/docs/Catalogs/9162-2.pdf )
+
+2011-11-14  Niibe Yutaka  <gniibe@fsij.org>
+
+	* Version 1.00.
+
+	* datasheet: New.
+
+2011-10-20  Niibe Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Use new ABM8G.mod and FST-LOGO.mod.
+	Fix +3.3V line on the back.
+
+	* fst-01.pro: Add module/FST-LOGO.mod.
+
+	* module/ABM8G.mod: Silk outline move to outside.
+
+	* module/FST-LOGO.mod: New.
+
+2011-10-19  Niibe Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Move the via out of capacitor pad.
+
+2011-09-30  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the change of circuit.  Move power circuit
+	parts to south.
+
+	* fst-01.net, fst-01.cmp, fst-01.pro: Update.
+
+	* fst-01.sch: Use Xtal with ground.  Add SPI flash memory.
+	Use PB0 for LED.
+
+	* eco2-pcb-outline.brd: New.  PCB outline and cut line for
+	panelizing.
+
+	* library/crystal-gnd.lib: New.  Xtal with ground.
+	* library/sst25vf032b.lib: New.  SPI Flash memory.
+
+	* module/ABM8G.mod: New.  Small foopprint XTAL 12MHz.
+	* module/SIL-2-0.mod: New.
+	* module/SIL-2-2.mod: New.
+	* module/SIL-4-3.mod: New.
+	* module/WSON8.mod: New.
+
+2011-09-12  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Updated.  Improve modules positions, add vias for
+	QFN package, add vias for GND.
+
+	* module/SIL-3-2.mod, module/SIL-3-3.mod, module/SIL-4-2.mod: Fix
+	pad 1 position.
+
+2011-09-09  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* module/SIL-3-3.mod: New.
+	* module/SIL-4-2.mod: New.
+	* module/QFN36.mod: New.
+	* module/TSOT23-5.mod, module/SOT363.mod: Silk improvement.
+	* module/SIL-3-2.mod: Change pin assignment.
+	* library/stm32f103.lib, library/stm32f103.dcm: Add STM32F108TB.
+	* fst-01.sch: Use 36-pin STM32F108TB.
+	* fst-01.pro, fst-01.net, fst-01.cmp, fst-01.brd: Updated.
+
+2011-09-08  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* module/SM0805.mod: New.  Based on KiCAD's SM0805 module of
+	libcms, and modify for 6mil space rule.
+	* module/SOT363.mod: Move lines outside 6mil space.
+	* module/TSOT23-5.mod: Likewise.
+	* module/SMT_RES.mod: Likewise.
+	* module/SMT_CAP.mod: Likewise.
+	* module/LED0603.mod: Likewise.
+	* module/ABM3B.mod: Add a rectangle.
+	* module/LQFP48.mod: Move index a bit.
+	* module/USB-A-PLUG.mod: Remove two silk lines.
+	* fst-01.pro: Use SM0805.mod.
+	* fst-01.brd: Update modules.
+
+	Set Preferences -> Dimensions -> Pads Mask Clearance.
+	* fst-01.brd (Pad2MaskClearance): 6mil (was: 8mil).
+	* fst-01.pro (VEgarde): Ditto.
+
+2011-09-06  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Update modules.  Logo improvement.
+
+	* module/SOT363.mod: Move pin 1 index.
+
+	* module/LQFP48.mod: Move pin 1 index.
+
+2011-09-05  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the change or circuit.
+
+	* fst-01.net: Rengenerated.
+
+	* fst-01.sch: Fix for connection of NUF2221.
+
+2011-08-26  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* module/TSOT23-5.mod: Put module outline into Drawings layer.
+
+	* module/SMT_RES.mod: New.  Drawings are from
+	module/w_smd_resistors.mod.
+	* module/w_smd_resistors.mdc, module/w_smd_resistors.mod: Delete.
+
+	* module/SMT_CAP.mod: New.  Drawings are from module/w_smd_cap.mod.
+	* module/w_smd_cap.mdc, module/w_smd_cap.mod: Delete.
+
+	* module/LED0603.mod: Draw outline silk and put module outline
+	into Drawings layer.
+
+	* module/LQFP48.mod: Move first pin indicator.
+
+	* fst-01.brd: Fix silks for references.
+
+2011-08-23  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* library/nuf2221w1.lib: New.
+	* module/LED0603.mod: New.
+	* module/SOT363.mod: New.
+	* fst-01.pro: Updated.
+
+	* fst-01.sch: Change STF-202 to NUF2221.
+	* fst-01.net, fst-01.cmp: Updated.
+	* fst-01.brd: Follow the change of the circuit.
+
+2011-08-22  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Fix logo.
+	PCB outline is now (13.15mm x 26.08mm).
+
+2011-08-19  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Follow the fix of VBUS pin of STF-202.
+	PCB outline is now (13.15mm x 26mm).
+
+2011-08-17  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.sch: Fix connection to STF-202.  The pin VBUS should
+	_not_ be connected to VBUS, but 3.3V to pull up.
+	* fst-01.net: Updated.
+
+2011-08-10  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Move references and values.  Draw logo and product
+	number.
+
+	* fst-01.brd: Connect wires, fill zones.
+	* fst-01.sch: Connect LED and R1.
+	* fst-01.net: Updated.
+
+2011-08-09  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: Draw PCB outline (13.5mm x 26mm).  Update using new
+	LQFP48.
+	* fst-01.{cmp,net,pro}: Updated.
+
+	* module/LQFP48.mod: Pad is now a bit smaller than recommended
+	footprint (in STM doc #13587).  SolderMask is now 8mil, clearance
+	as well.
+
+2011-08-08  NIIBE Yutaka  <gniibe@fsij.org>
+
+	* fst-01.brd: New.  Board file for KiCAD, by PCBnew.
+
+	* fst-01.cmp: New.  Component file for KiCAD, generated by CvPCB.
+
+	* fst-01.net: New.  Netlist file for KiCAD, generated from fst-01.sch.
+
+	* fst-01.sch: New.  Schematic file for KiCAD.
+
+	* fst-01.pro: New.  Project file for KiCAD.
+
+	* library/stm32f103.{lib,dcm}: New.
+	* library/stf202.{lib,dcm}: New.
+	* library/cat6217-330.{lib,dcm}: New.
+
+	* module/w_smd_resistors.{mod,mdc}, module/w_smd_cap.{mod,mdc}:
+	New from Kicad Library by W. Lain;
+	http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+
+	* module/ABM3B.mod: New for XTAL.
+
+	* module/TSOT23-5.mod: New, copied from;
+	http://library.oshec.org/compressed/m-pad-2.1.tar.gz
+
+	* module/SOT23-6L.mod: New, copied from;
+	http://library.oshec.org/compressed/ref-packages.tar.gz
+
+	* module/USB-A-PLUG.mod: New for USB A Plug for PCB.
+
+	* module/SIL-3-2.mod: New for SWD port, based on SIL-3 module
+	distributed with KiCAD.
+
+	* module/SIL-3-1.mod: New for extension port, based on SIL-3
+	module distributed with KiCAD.
+
+	* module/LQFP48.mod: New.
+
+	* Project start.

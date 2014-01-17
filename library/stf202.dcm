@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon Aug  8 15:33:40 2011 JST
+#
+$CMP STF202-22
+D STF202 Upstream USB Port Filter 6V TVS
+K filter tvs usb
+$ENDCMP
+#
+#End Doc Library

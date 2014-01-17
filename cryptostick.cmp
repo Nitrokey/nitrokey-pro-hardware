@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 29-Mar-13 7:41:49 PM
+
+BeginCmp
+TimeStamp = /4E2CD2B1;
+Reference = C1;
+ValeurCmp = 27pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD2C4;
+Reference = C2;
+ValeurCmp = 27pF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D6A2C;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D63F9;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /500508D3;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D167B;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D6573;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D1296;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D79BC;
+Reference = C9;
+ValeurCmp = 4.7uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD9BD;
+Reference = C10;
+ValeurCmp = 0.01uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D79C8;
+Reference = C11;
+ValeurCmp = 4.7uF;
+IdModule  = c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F801DB4;
+Reference = D1;
+ValeurCmp = DUAL_LED;
+IdModule  = KPHBM-2012SURKCGKC;
+EndCmp
+
+BeginCmp
+TimeStamp = /500506A8;
+Reference = J1;
+ValeurCmp = SIM_JACKET;
+IdModule  = molex 78646-3001;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E27DE01;
+Reference = J2;
+ValeurCmp = USB_A;
+IdModule  = USB-A-PLUG;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F507292;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-2-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51559134;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = boot;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2D766E;
+Reference = R1;
+ValeurCmp = 510;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F801E05;
+Reference = R2;
+ValeurCmp = 510;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5155A7EA;
+Reference = R3;
+ValeurCmp = 510;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E68666C;
+Reference = U1;
+ValeurCmp = STM32F103TB;
+IdModule  = QFN36;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E2CD88E;
+Reference = U2;
+ValeurCmp = CAT6217-330;
+IdModule  = TSOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E521576;
+Reference = U3;
+ValeurCmp = NUF2221W1;
+IdModule  = SOT363;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E82CD9F;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = ABM8G;
+EndCmp
+
+EndListe

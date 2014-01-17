@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 08 Sep 2011 17:35:02 JST
+#
+$CMP STM32F103CB
+D STM32 Cortex-m3 MCU, 64/128 Kbytes Flash, 20 Kbytes RAM
+K stm32 ARM Cortex-m3
+$ENDCMP
+#
+$CMP STM32F103TB
+D STM32 Cortex-m3 MCU, 64/128 Kbytes Flash, 20 Kbytes RAM
+K stm32 ARM Cortex-m3
+$ENDCMP
+#
+#End Doc Library
