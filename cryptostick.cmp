@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 29-Mar-13 7:41:49 PM
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Tue 25 Feb 2014 20:03:04 CET
 
 BeginCmp
 TimeStamp = /4E2CD2B1;
@@ -102,14 +102,7 @@ BeginCmp
 TimeStamp = /4F507292;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = SIL-2-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /51559134;
-Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = boot;
+IdModule  = SIL-2-2-drilled-offset;
 EndCmp
 
 BeginCmp
@@ -129,7 +122,21 @@ EndCmp
 BeginCmp
 TimeStamp = /5155A7EA;
 Reference = R3;
-ValeurCmp = 510;
+ValeurCmp = 10k;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /530CE600;
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /530CE60F;
+Reference = R5;
+ValeurCmp = 10k;
 IdModule  = r_0402;
 EndCmp
 

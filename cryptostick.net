@@ -1,234 +1,451 @@
-# EESchema Netlist Version 1.1 created  29-Mar-13 7:41:49 PM
-(
- ( /4E2CD2B1 c_0402 C1 27pF
-  ( 1 /OSC_IN )
-  ( 2 GND )
- )
- ( /4E2CD2C4 c_0402 C2 27pF
-  ( 1 /OSC_OUT )
-  ( 2 GND )
- )
- ( /4E2D6A2C c_0402 C3 0.1uF
-  ( 1 /NRST )
-  ( 2 GND )
- )
- ( /4E2D63F9 c_0402 C4 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
- )
- ( /500508D3 c_0402 C5 0.1uF
-  ( 1 N-000039 )
-  ( 2 GND )
- )
- ( /4E2D167B c_0402 C6 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
- )
- ( /4E2D6573 c_0402 C7 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
- )
- ( /4E2D1296 c_0402 C8 0.1uF
-  ( 1 GND )
-  ( 2 +3.3V )
- )
- ( /4E2D79BC c_0402 C9 4.7uF
-  ( 1 +3.3V )
-  ( 2 GND )
- )
- ( /4E2CD9BD c_0402 C10 0.01uF
-  ( 1 N-000027 )
-  ( 2 GND )
- )
- ( /4E2D79C8 c_0402 C11 4.7uF
-  ( 1 /VBUS )
-  ( 2 GND )
- )
- ( /4F801DB4 KPHBM-2012SURKCGKC D1 DUAL_LED
-  ( 1 N-000030 )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000038 )
- )
- ( /500506A8 molex 78646-3001 J1 SIM_JACKET
-  ( 1 N-000039 )
-  ( 2 N-000019 )
-  ( 3 N-000008 )
-  ( 4 ? )
-  ( 5 GND )
-  ( 6 ? )
-  ( 7 N-000036 )
-  ( 8 ? )
- )
- ( /4E27DE01 USB-A-PLUG J2 USB_A
-  ( 1 /VBUS )
-  ( 2 /D-_PLUG )
-  ( 3 /D+_PLUG )
-  ( 4 GND )
- )
- ( /4F507292 SIL-2-2 P1 CONN_4
-  ( 1 +3.3V )
-  ( 2 GND )
-  ( 3 /SWCLK )
-  ( 4 /SWDIO )
- )
- ( /51559134 boot P2 CONN_2
-  ( 1 N-000040 )
-  ( 2 +3.3V )
- )
- ( /4E2D766E r_0402 R1 510
-  ( 1 N-000030 )
-  ( 2 N-000029 )
- )
- ( /4F801E05 r_0402 R2 510
-  ( 1 N-000038 )
-  ( 2 N-000014 )
- )
- ( /5155A7EA r_0402 R3 510
-  ( 1 GND )
-  ( 2 N-000040 )
- )
- ( /4E68666C QFN36 U1 STM32F103TB
-  ( 1 +3.3V )
-  ( 2 /OSC_IN )
-  ( 3 /OSC_OUT )
-  ( 4 /NRST )
-  ( 5 GND )
-  ( 6 +3.3V )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 N-000029 )
-  ( 15 N-000014 )
-  ( 16 ? )
-  ( 17 N-000040 )
-  ( 18 GND )
-  ( 19 +3.3V )
-  ( 20 N-000008 )
-  ( 21 ? )
-  ( 22 /USB_EN )
-  ( 23 /D- )
-  ( 24 /D+ )
-  ( 25 /SWDIO )
-  ( 26 GND )
-  ( 27 +3.3V )
-  ( 28 /SWCLK )
-  ( 29 ? )
-  ( 30 N-000019 )
-  ( 31 N-000039 )
-  ( 32 N-000039 )
-  ( 33 N-000036 )
-  ( 34 ? )
-  ( 35 ? )
-  ( 36 GND )
-  ( 37 GND )
- )
- ( /4E2CD88E TSOT23-5 U2 CAT6217-330
-  ( 1 /VBUS )
-  ( 2 GND )
-  ( 3 /VBUS )
-  ( 4 N-000027 )
-  ( 5 +3.3V )
- )
- ( /4E521576 SOT363 U3 NUF2221W1
-  ( 1 /D+ )
-  ( 2 GND )
-  ( 3 /D- )
-  ( 4 /D-_PLUG )
-  ( 5 /USB_EN )
-  ( 6 /D+_PLUG )
- )
- ( /4E82CD9F ABM8G X1 12MHz
-  ( 1 /OSC_IN )
-  ( 2 /OSC_OUT )
-  ( 3 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C9
- CP*
- SM*
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C11
- CP*
- SM*
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component U1
- LQFP48
-$endlist
-$component U3
- SOT23-6
-$endlist
-$endfootprintlist
-}
+(export (version D)
+  (design
+    (source /home/andrju/Desktop/cryptostick.v1hardware/cryptostick.sch)
+    (date "Tue 25 Feb 2014 20:01:39 CET")
+    (tool "eeschema (2013-05-18 BZR 4017)-stable"))
+  (components
+    (comp (ref R3)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5155A7EA))
+    (comp (ref C5)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 500508D3))
+    (comp (ref J1)
+      (value SIM_JACKET)
+      (libsource (lib cryptostick-cache) (part SIM_JACKET))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 500506A8))
+    (comp (ref R2)
+      (value 510)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4F801E05))
+    (comp (ref D1)
+      (value DUAL_LED)
+      (libsource (lib cryptostick-cache) (part DUAL_LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4F801DB4))
+    (comp (ref P1)
+      (value CONN_4)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4F507292))
+    (comp (ref X1)
+      (value 12MHz)
+      (libsource (lib crystal-gnd) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E82CD9F))
+    (comp (ref U1)
+      (value STM32F103TB)
+      (libsource (lib stm32f103) (part STM32F103TB))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E68666C))
+    (comp (ref U3)
+      (value NUF2221W1)
+      (libsource (lib nuf2221w1) (part NUF2221W1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E521576))
+    (comp (ref J2)
+      (value USB_A)
+      (fields
+        (field (name VCC) VCC)
+        (field (name Data+) D+)
+        (field (name Data-) D-)
+        (field (name Ground) GND))
+      (libsource (lib cryptostick-cache) (part USB_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E27DE01))
+    (comp (ref C11)
+      (value 4.7uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D79C8))
+    (comp (ref C9)
+      (value 4.7uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D79BC))
+    (comp (ref R1)
+      (value 510)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D766E))
+    (comp (ref C3)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D6A2C))
+    (comp (ref C7)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D6573))
+    (comp (ref C4)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D63F9))
+    (comp (ref C6)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D167B))
+    (comp (ref C8)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2D1296))
+    (comp (ref C10)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2CD9BD))
+    (comp (ref U2)
+      (value CAT6217-330)
+      (libsource (lib cat6217-330) (part CAT6217-330))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2CD88E))
+    (comp (ref C2)
+      (value 27pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2CD2C4))
+    (comp (ref C1)
+      (value 27pF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E2CD2B1))
+    (comp (ref R4)
+      (value 0)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530CE600))
+    (comp (ref R5)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 530CE60F)))
+  (libparts
+    (libpart (lib nuf2221w1) (part NUF2221W1)
+      (footprints
+        (fp SOT23-6))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) NUF2221W1))
+      (pins
+        (pin (num 1) (name D1i) (type BiDi))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name D2i) (type BiDi))
+        (pin (num 4) (name D2c) (type BiDi))
+        (pin (num 5) (name VDD) (type power_in))
+        (pin (num 6) (name D1c) (type BiDi))))
+    (libpart (lib cat6217-330) (part CAT6217-330)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) CAT6217-330))
+      (pins
+        (pin (num 1) (name VIN) (type power_in))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 3) (name EN) (type input))
+        (pin (num 4) (name BYP) (type passive))
+        (pin (num 5) (name VOUT) (type power_out))))
+    (libpart (lib crystal-gnd) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name GND) (type passive))))
+    (libpart (lib stm32f103) (part STM32F103TB)
+      (description "STM32 Cortex-m3 MCU, 64/128 Kbytes Flash, 20 Kbytes RAM")
+      (footprints
+        (fp LQFP48))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) STM32F103TB))
+      (pins
+        (pin (num 1) (name VDD_3) (type power_in))
+        (pin (num 2) (name OSC_IN) (type input))
+        (pin (num 3) (name OSC_OUT) (type output))
+        (pin (num 4) (name NRST) (type input))
+        (pin (num 5) (name VSSA) (type power_in))
+        (pin (num 6) (name VDDA) (type power_in))
+        (pin (num 7) (name PA0) (type BiDi))
+        (pin (num 8) (name PA1) (type BiDi))
+        (pin (num 9) (name PA2) (type BiDi))
+        (pin (num 10) (name PA3) (type BiDi))
+        (pin (num 11) (name PA4) (type BiDi))
+        (pin (num 12) (name PA5) (type BiDi))
+        (pin (num 13) (name PA6) (type BiDi))
+        (pin (num 14) (name PA7) (type BiDi))
+        (pin (num 15) (name PB0) (type BiDi))
+        (pin (num 16) (name PB1) (type BiDi))
+        (pin (num 17) (name BOOT1) (type input))
+        (pin (num 18) (name VSS_1) (type power_in))
+        (pin (num 19) (name VDD_1) (type power_in))
+        (pin (num 20) (name PA8) (type BiDi))
+        (pin (num 21) (name PA9) (type BiDi))
+        (pin (num 22) (name PA10) (type BiDi))
+        (pin (num 23) (name USB_DM) (type BiDi))
+        (pin (num 24) (name USB_DP) (type BiDi))
+        (pin (num 25) (name SWDIO) (type BiDi))
+        (pin (num 26) (name VSS_2) (type power_in))
+        (pin (num 27) (name VDD_2) (type power_in))
+        (pin (num 28) (name SWCLK) (type input))
+        (pin (num 29) (name PA15) (type BiDi))
+        (pin (num 30) (name PB3) (type BiDi))
+        (pin (num 31) (name PB4) (type BiDi))
+        (pin (num 32) (name PB5) (type BiDi))
+        (pin (num 33) (name PB6) (type BiDi))
+        (pin (num 34) (name PB7) (type BiDi))
+        (pin (num 35) (name BOOT0) (type input))
+        (pin (num 36) (name VSS_3) (type power_in))
+        (pin (num 37) (name GND) (type power_in))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_4)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib cryptostick-cache) (part DUAL_LED)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DUAL_LED))
+      (pins
+        (pin (num 1) (name A1) (type input))
+        (pin (num 2) (name K1) (type input))
+        (pin (num 3) (name A2) (type input))
+        (pin (num 4) (name K2) (type input))))
+    (libpart (lib cryptostick-cache) (part SIM_JACKET)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) SIM_JACKET))
+      (pins
+        (pin (num 1) (name Vcc) (type power_in))
+        (pin (num 2) (name RST) (type input))
+        (pin (num 3) (name CLK) (type 3state))
+        (pin (num 4) (name C4) (type 3state))
+        (pin (num 5) (name GND) (type 3state))
+        (pin (num 6) (name NC) (type 3state))
+        (pin (num 7) (name SDA) (type 3state))
+        (pin (num 8) (name C8) (type 3state))))
+    (libpart (lib cryptostick-cache) (part USB_2)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) USB_2)
+        (field (name VCC) VCC)
+        (field (name Data+) D+)
+        (field (name Data-) D-)
+        (field (name Ground) GND))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))
+        (pin (num 4) (name ~) (type input)))))
+  (libraries
+    (library (logical crystal-gnd)
+      (uri library/crystal-gnd.lib))
+    (library (logical cat6217-330)
+      (uri library/cat6217-330.lib))
+    (library (logical nuf2221w1)
+      (uri library/nuf2221w1.lib))
+    (library (logical stm32f103)
+      (uri library/stm32f103.lib))
+    (library (logical device)
+      (uri /home/andrju/Desktop/kicad/share/library/device.lib))
+    (library (logical conn)
+      (uri /home/andrju/Desktop/kicad/share/library/conn.lib))
+    (library (logical cryptostick-cache)
+      (uri cryptostick-cache.lib)))
+  (nets
+    (net (code 2) (name GND)
+      (node (ref U2) (pin 2))
+      (node (ref C10) (pin 2))
+      (node (ref C8) (pin 1))
+      (node (ref C1) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref R5) (pin 2))
+      (node (ref C6) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref J1) (pin 5))
+      (node (ref P1) (pin 2))
+      (node (ref D1) (pin 3))
+      (node (ref D1) (pin 2))
+      (node (ref R3) (pin 1))
+      (node (ref C5) (pin 2))
+      (node (ref U1) (pin 18))
+      (node (ref C11) (pin 2))
+      (node (ref U1) (pin 5))
+      (node (ref C9) (pin 2))
+      (node (ref C7) (pin 1))
+      (node (ref X1) (pin 3))
+      (node (ref U3) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref U1) (pin 37))
+      (node (ref U1) (pin 26))
+      (node (ref U1) (pin 36))
+      (node (ref J2) (pin 4)))
+    (net (code 3) (name /D-)
+      (node (ref U1) (pin 22))
+      (node (ref U3) (pin 3))
+      (node (ref U1) (pin 23)))
+    (net (code 4) (name +3.3V)
+      (node (ref U1) (pin 1))
+      (node (ref U1) (pin 27))
+      (node (ref U1) (pin 19))
+      (node (ref P1) (pin 1))
+      (node (ref C9) (pin 1))
+      (node (ref U1) (pin 6))
+      (node (ref C4) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref C8) (pin 2))
+      (node (ref R4) (pin 2))
+      (node (ref U2) (pin 5))
+      (node (ref C7) (pin 2)))
+    (net (code 5) (name /SWCLK)
+      (node (ref U1) (pin 28))
+      (node (ref P1) (pin 3)))
+    (net (code 6) (name /NRST)
+      (node (ref C3) (pin 1))
+      (node (ref U1) (pin 4)))
+    (net (code 7) (name "")
+      (node (ref R1) (pin 2))
+      (node (ref U1) (pin 14)))
+    (net (code 8) (name "")
+      (node (ref R1) (pin 1))
+      (node (ref D1) (pin 1)))
+    (net (code 10) (name /SCCLK)
+      (node (ref J1) (pin 3))
+      (node (ref U1) (pin 20)))
+    (net (code 11) (name "")
+      (node (ref U1) (pin 10)))
+    (net (code 12) (name "")
+      (node (ref U1) (pin 9)))
+    (net (code 13) (name "")
+      (node (ref U1) (pin 8)))
+    (net (code 14) (name "")
+      (node (ref U1) (pin 7)))
+    (net (code 15) (name "")
+      (node (ref U1) (pin 11)))
+    (net (code 16) (name /USB_EN)
+      (node (ref U1) (pin 29))
+      (node (ref U3) (pin 5)))
+    (net (code 17) (name /OSC_OUT)
+      (node (ref X1) (pin 2))
+      (node (ref U1) (pin 3))
+      (node (ref C2) (pin 1)))
+    (net (code 18) (name "")
+      (node (ref U1) (pin 16)))
+    (net (code 19) (name "")
+      (node (ref U1) (pin 15))
+      (node (ref R2) (pin 2)))
+    (net (code 20) (name "")
+      (node (ref U1) (pin 34)))
+    (net (code 21) (name "")
+      (node (ref U1) (pin 13)))
+    (net (code 22) (name "")
+      (node (ref U1) (pin 12)))
+    (net (code 23) (name /SCSDA)
+      (node (ref J1) (pin 7))
+      (node (ref U1) (pin 33)))
+    (net (code 24) (name /D-_PLUG)
+      (node (ref U3) (pin 4))
+      (node (ref J2) (pin 2)))
+    (net (code 25) (name /D+_PLUG)
+      (node (ref J2) (pin 3))
+      (node (ref U3) (pin 6)))
+    (net (code 26) (name /BOOT0)
+      (node (ref U1) (pin 35))
+      (node (ref R5) (pin 1))
+      (node (ref R4) (pin 1)))
+    (net (code 27) (name "")
+      (node (ref U2) (pin 4))
+      (node (ref C10) (pin 1)))
+    (net (code 28) (name /OSC_IN)
+      (node (ref U1) (pin 2))
+      (node (ref C1) (pin 1))
+      (node (ref X1) (pin 1)))
+    (net (code 29) (name /SWDIO)
+      (node (ref P1) (pin 4))
+      (node (ref U1) (pin 25)))
+    (net (code 30) (name /D+)
+      (node (ref U3) (pin 1))
+      (node (ref U1) (pin 21))
+      (node (ref U1) (pin 24)))
+    (net (code 31) (name /VBUS)
+      (node (ref U2) (pin 3))
+      (node (ref C11) (pin 1))
+      (node (ref J2) (pin 1))
+      (node (ref U2) (pin 1)))
+    (net (code 32) (name "")
+      (node (ref U1) (pin 17))
+      (node (ref R3) (pin 2)))
+    (net (code 33) (name "")
+      (node (ref D1) (pin 4))
+      (node (ref R2) (pin 1)))
+    (net (code 34) (name "")
+      (node (ref J1) (pin 8)))
+    (net (code 35) (name "")
+      (node (ref J1) (pin 6)))
+    (net (code 36) (name "")
+      (node (ref J1) (pin 4)))
+    (net (code 37) (name /SCRST)
+      (node (ref U1) (pin 30))
+      (node (ref J1) (pin 2)))
+    (net (code 38) (name /SCVCC)
+      (node (ref J1) (pin 1))
+      (node (ref C5) (pin 1))
+      (node (ref U1) (pin 31))
+      (node (ref U1) (pin 32)))))
