@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 25 Feb 2014 19:46:04 CET
+PCBNEW-LibModule-V1  02/03/2014 16:41:33
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ SIL-2-2-drilled-guiding_holes-offset
 SIL-2-2-drilled-offset
 SIL-2-2-guiding_holes
 SIL-2-2-guiding_holes-offest
+jumper_drilled
 $EndINDEX
 $MODULE POGO6-oval
 Po 0 0 0 15 52EC0766 00000000 ~~
@@ -511,4 +512,27 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SIL-2-2-guiding_holes-offest
+$MODULE jumper_drilled
+Po 0 0 0 15 5313511D 00000000 ~~
+Li jumper_drilled
+Sc 0
+AR /530CE600
+Op 0 0 0
+T0 -0.1 -5.9 1.524 1.524 0 0.3048 N V 21 N "R4"
+T1 0 4.2 1.524 1.524 0 0.3048 N V 21 N "0"
+$PAD
+Sh "1" C 1.2 1.2 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 2 "/BOOT0"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 1.2 1.2 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 1 "+3.3V"
+Po 1.5 0
+$EndPAD
+$EndMODULE jumper_drilled
 $EndLIBRARY

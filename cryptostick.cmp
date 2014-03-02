@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Tue 25 Feb 2014 20:03:04 CET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 02/03/2014 17:14:44
 
 BeginCmp
 TimeStamp = /4E2CD2B1;
@@ -99,6 +99,13 @@ IdModule  = USB-A-PLUG;
 EndCmp
 
 BeginCmp
+TimeStamp = /531358A7;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = jumper_drilled;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F507292;
 Reference = P1;
 ValeurCmp = CONN_4;
@@ -127,15 +134,8 @@ IdModule  = r_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /530CE600;
-Reference = R4;
-ValeurCmp = 0;
-IdModule  = r_0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /530CE60F;
-Reference = R5;
+Reference = R4;
 ValeurCmp = 10k;
 IdModule  = r_0402;
 EndCmp
