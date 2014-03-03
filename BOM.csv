@@ -1,16 +1,16 @@
-Id;Designator;Package;Quantity;Designation;Digikey Part Number
-1;JP1;boot;1;JUMPER;n.a.
-2;P1;SIL-2-2;1;CONN_4;n.a.
-3;C3,C7,C6,C5,C4,C8;c_0402;6;0.1uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.
-4;R1,R2;r_0402;2;510;2% tolerance, temperature -20 to +70 °C.
-5;C1,C2;c_0402;2;27pF;No tantalum, tolerance 20%, temperature -20 to +70 °C.
-6;C9,C11;c_0402;2;4.7uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.
-7;U2;TSOT23-5;1;CAT6217-330;576-2835-1-ND or ADP121-AUJZ33R7CT-ND
-8;U1;QFN36;1;STM32F103TB;497-11534-ND
-9;X1;ABM8G;1;12MHz;535-10283-1-ND
-10;R3,R4;c_0402;2;10k;2% tolerance, temperature -20 to +70 °C.
-11;C10;c_0402;1;0.01uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.
-12;U3;SOT363;1;NUF2221W1;NUF2221W1T2GOSCT-ND
-13;J2;USB-A-PLUG;1;USB_A;WM3983TR-ND
-14;D1;KPHBM-2012SURKCGKC;1;DUAL_LED;element14.com 1686079RL
-15;J1;Molex 0786463001;1;SIM_JACKET;WM9364CT-ND
+Id;Designator;Package;Quantity;Designation;Digikey Part Number;Digikey URL
+1;JP1;boot;1;JUMPER;n.a.;
+2;P1;SIL-2-2;1;CONN_4;n.a.;
+3;C3,C7,C6,C5,C4,C8;c_0402;6;0.1uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/C1005X7R1C104M050BC/445-4953-1-ND/2093567
+4;R1,R2;r_0402;2;510;2% tolerance, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/RC0402FR-07510RL/311-510LRCT-ND/729579
+5;C1,C2;c_0402;2;27pF;No tantalum, tolerance 20%, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/C1005C0G1H270J050BA/445-1240-1-ND/567721
+6;C9,C11;c_0402;2;4.7uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/C1005X5R1A475M050BC/445-8023-1-ND/2792141
+7;U2;TSOT23-5;1;CAT6217-330;576-2835-1-ND or ADP121-AUJZ33R7CT-ND;http://www.digikey.com/product-detail/en/MIC5265-3.3YD5%20TR/576-2835-1-ND/1821995
+8;U1;QFN36;1;STM32F103TB;497-11534-ND;http://www.digikey.com/product-search/en?vendor=0&keywords=497-11534-ND
+9;X1;ABM8G;1;12MHz;535-10283-1-ND;http://www.digikey.com/product-detail/en/ABM8G-12.000MHZ-B4Y-T/535-10283-1-ND/2218096
+10;R3,R4;c_0402;2;10k;2% tolerance, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/RC0402FR-0710KL/311-10.0KLRCT-ND/729470
+11;C10;c_0402;1;0.01uF;No tantalum, tolerance 20%, temperature -20 to +70 °C.;http://www.digikey.com/product-detail/en/C1005X7R1E103K050BB/445-1260-1-ND/567737
+12;U3;SOT363;1;NUF2221W1;NUF2221W1T2GOSCT-ND;http://www.digikey.com/product-detail/en/NUF2221W1T2G/NUF2221W1T2GOSCT-ND/720929
+13;J2;USB-A-PLUG;1;USB_A;WM3983TR-ND;http://www.digikey.com/product-detail/en/0480372200/WM3983CT-ND/2421836
+14;D1;KPHBM-2012SURKCGKC;1;DUAL_LED;element14.com 1686079RL;http://www.digikey.com/product-detail/en/APHBM2012SURKCGKC/754-1093-1-ND/1747810
+15;J1;Molex 0786463001;1;SIM_JACKET;WM9364CT-ND;http://www.digikey.com/product-detail/en/0786463001/WM9364CT-ND/3770350
