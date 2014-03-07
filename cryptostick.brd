@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 02/03/2014 17:20:42
+PCBNEW-BOARD Version 2 date 07/03/2014 22:57:16
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -7,9 +7,10 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
+VisibleLayers 1FFF8000
 Links 77
 NoConn 0
-Di 114.87277 84.98494 151.786591 107.62466
+Di 113.79863 88.1253 151.786591 107.287482
 Ndraw 11
 Ntrack 340
 Nzone 0
@@ -21,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Crypto Stick Professional"
-Date "2 mar 2014"
+Date "7 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,8 +62,8 @@ Pad2MaskClearance 0.1524
 SolderMaskMinWidth 0
 Pad2PasteClearanceRatio -0.1
 AuxiliaryAxisOrg 127 98.9965
-VisibleElements 7FFFFFCF
-PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
+VisibleElements 7FFFFFFF
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber/))
 $EndSETUP
 
 $EQUIPOT
@@ -1066,13 +1067,13 @@ Po -0.54864 0
 $EndPAD
 $EndMODULE c_0402
 $MODULE ABM8G
-Po 118.2497 94.64548 900 15 5155A2D7 4F50A107 ~~
+Po 118.2497 94.64548 900 15 531A3FFD 4F50A107 ~~
 Li ABM8G
 Sc 4F50A107
 AR /4E82CD9F
 Op 0 0 0
 T0 0.09398 -0.0127 1.00076 1.00076 900 0.20066 N V 21 N "X1"
-T1 0 2.19964 1.00076 1.00076 900 0.20066 N I 21 N "12MHz"
+T1 0.04548 -3.6497 1.00076 1.00076 900 0.20066 N I 21 N "12MHz"
 DS -2.032 -1.6764 2.032 -1.6764 0.14986 21
 DS 2.032 -1.6764 2.032 1.6764 0.14986 21
 DS 2.032 1.6764 -2.032 1.6764 0.14986 21
@@ -1238,9 +1239,9 @@ Po -0.65024 -0.94996
 $EndPAD
 $EndMODULE SOT363
 $MODULE KPHBM-2012SURKCGKC
-Po 116.1669 98.9965 900 0 50F811AE 51013C5F ~~
+Po 116.1669 98.9965 900 0 50F811AE 531A3FA4 ~~
 Li KPHBM-2012SURKCGKC
-Sc 51013C5F
+Sc 531A3FA4
 AR /4F801DB4
 Op 0 0 0
 T0 0 0 0.20066 0.20066 900 0.03302 M V 20 N "D1"
@@ -1319,14 +1320,14 @@ Po -0.54864 0
 $EndPAD
 $EndMODULE r_0402
 $MODULE SIL-2-2-drilled-offset
-Po 125.4 91.7 0 15 530CE4E2 4F93FBCD ~~
+Po 125.4 91.7 0 15 531A3FE8 4F93FBCD ~~
 Li SIL-2-2-drilled-offset
 Cd Connecteur 3 pins
 Kw CONN DEV
 Sc 4F93FBCD
 AR /4F507292
 Op 0 0 0
-T0 0 -1.27 0.254 0.254 0 0.0635 N V 21 N "P1"
+T0 -0.45 1.05 0.254 0.254 0 0.0635 N V 21 N "P1"
 T1 -0.0635 -1.7145 0.254 0.254 0 0.0635 N I 21 N "CONN_4"
 $PAD
 Sh "2" C 0.85 0.85 0 0 0
@@ -1368,13 +1369,13 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SIL-2-2-drilled-offset
 $MODULE r_0402
-Po 117.8 105.9 1800 15 4E6816F3 4F4DE85D ~~
+Po 117.8 105.9 1800 15 531A3F44 4F4DE85D ~~
 Li r_0402
 Cd SMT resistor, 0402
 Sc 4F4DE85D
 AR /4F801E05
 Op 0 0 0
-T0 -0.09906 -1.04902 0.8001 0.8001 1800 0.14986 N V 21 N "R2"
+T0 -1.9 0 0.8001 0.8001 1800 0.14986 N V 21 N "R2"
 T1 0 0.8001 0.14986 0.14986 1800 0.03048 N I 21 N "510"
 DS 1.17602 -0.57404 1.17602 0.57404 0.14986 21
 DS 1.17602 0.57404 -1.17602 0.57404 0.14986 21
@@ -1518,13 +1519,13 @@ Po 5.91058 -2.5019
 $EndPAD
 $EndMODULE molex 78646-3001
 $MODULE jumper_drilled
-Po 120.4 92 0 15 5313511D 5313590B ~~
+Po 120.4 92 0 15 531A3FDF 5313590B ~~
 Li jumper_drilled
 Sc 5313590B
 AR /531358A7
 Op 0 0 0
-T0 -0.1 -5.9 1.524 1.524 0 0.3048 N V 21 N "JP1"
-T1 0 4.2 1.524 1.524 0 0.3048 N V 21 N "JUMPER"
+T0 2.85 -0.2 0.5 0.5 0 0.08 N V 21 N "JP1"
+T1 -2.45 -2.7 1.524 1.524 0 0.3048 N I 21 N ""
 $PAD
 Sh "1" C 1.2 1.2 0 0 0
 Dr 0.5 0 0
@@ -1541,13 +1542,13 @@ Po 1.5 0
 $EndPAD
 $EndMODULE jumper_drilled
 $MODULE r_0402
-Po 121.3 93.4 0 15 4E6816F3 530CE993 ~~
+Po 121.3 93.4 0 15 531A3F3B 530CE993 ~~
 Li r_0402
 Cd SMT resistor, 0402
 Sc 530CE993
 AR /530CE60F
 Op 0 0 0
-T0 -0.09906 -1.04902 0.8001 0.8001 0 0.14986 N V 21 N "R4"
+T0 1.9 0.2 0.8001 0.8001 0 0.14986 N V 21 N "R4"
 T1 0 0.8001 0.14986 0.14986 0 0.03048 N I 21 N "10k"
 DS 1.17602 -0.57404 1.17602 0.57404 0.14986 21
 DS 1.17602 0.57404 -1.17602 0.57404 0.14986 21
@@ -1595,7 +1596,7 @@ Po 0 135.89 90.8685 136.4996 90.8685 0.09906
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "Crypto Stick Professional RC7"
+Te "Crypto Stick Professional RC8"
 Po 135.128 98.9965 0.39878 0.39878 0.09906 900
 De 21 1 0 Normal
 $EndTEXTPCB
@@ -1621,17 +1622,17 @@ De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TRACK
 Po 0 121.9 92 121.9 93.5 0.1524 -1
-De 0 0 1 0 400000
+De 0 0 1 0 0
 Po 0 119.7864 95.6136 119.7864 97.6376 0.1524 -1
 De 0 0 1 531359BE 0
 Po 0 121.9 93.5 119.7864 95.6136 0.1524 -1
 De 0 0 1 531359B9 0
 Po 0 123.876 92.716 123.366 92.716 0.1524 -1
-De 15 0 1 0 400000
+De 15 0 1 0 0
 Po 0 123.366 92.716 122.65 92 0.1524 -1
 De 15 0 1 5313598B 0
 Po 0 122.65 92 121.9 92 0.1524 -1
-De 15 0 1 5313598C 800000
+De 15 0 1 5313598C 0
 Po 0 125.5268 98.34372 125.5268 97.0788 0.1524 -1
 De 15 0 1 0 0
 Po 0 125.476 94.9452 126.3396 94.9452 0.1524 -1
@@ -1733,15 +1734,15 @@ De 15 0 1 530F8A5D 0
 Po 0 127.0254 102.997 128.03124 102.997 0.1524 -1
 De 15 0 1 530F8D19 0
 Po 0 121.84864 93.4 121.84864 93.29864 0.127 -1
-De 15 0 2 0 C00000
+De 15 0 2 0 0
 Po 0 120.55 92 120.4 92 0.127 -1
-De 15 0 2 53135987 C00000
+De 15 0 2 53135987 0
 Po 0 121.84864 93.29864 120.55 92 0.127 -1
-De 15 0 2 53135986 C00000
+De 15 0 2 53135986 0
 Po 0 121.805 93.905 121.805 93.44364 0.127 -1
-De 15 0 2 0 800000
+De 15 0 2 0 0
 Po 0 121.805 93.44364 121.84864 93.4 0.127 -1
-De 15 0 2 5313595E C00000
+De 15 0 2 5313595E 0
 Po 0 121.24944 97.56902 121.24944 96.72056 0.127 -1
 De 15 0 2 0 0
 Po 0 121.5 94.21 121.805 93.905 0.127 -1
@@ -2037,9 +2038,9 @@ De 15 1 18 0 0
 Po 0 133.0198 102.997 133.4516 102.5652 0.127 -1
 De 15 0 18 530F8A61 0
 Po 0 120.75136 93.4 119.24626 93.4 0.20066 -1
-De 15 0 19 0 C00000
+De 15 0 19 0 0
 Po 0 119.24626 93.4 119.1006 93.54566 0.20066 -1
-De 15 0 19 53135961 C00000
+De 15 0 19 53135961 0
 Po 0 120.7 94.75136 120.3063 94.75136 0.20066 -1
 De 15 0 19 0 0
 Po 0 120.3063 94.75136 119.1006 93.54566 0.20066 -1
