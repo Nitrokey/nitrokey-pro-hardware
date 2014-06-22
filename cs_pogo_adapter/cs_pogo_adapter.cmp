@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 03/02/2014 00:22:27
+
+BeginCmp
+TimeStamp = /52D87108;
+Reference = J1;
+ValeurCmp = HEADER_6;
+IdModule  = POGO6-oval;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D86E03;
+Reference = J2;
+ValeurCmp = HEADER_10X2;
+IdModule  = vasch_strip_10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D87202;
+Reference = J3;
+ValeurCmp = HEADER_4;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D87266;
+Reference = J4;
+ValeurCmp = HEADER_4;
+IdModule  = SIL-2-2-guiding_holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8721B;
+Reference = J5;
+ValeurCmp = HEADER_6;
+IdModule  = SIL-2-2-guiding_holes-offest;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8727F;
+Reference = J6;
+ValeurCmp = HEADER_6;
+IdModule  = POGO6-oval-offset;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EABB8F;
+Reference = J7;
+ValeurCmp = HEADER_4;
+IdModule  = SIL-2-2-guiding_holes-offest;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEBBAA;
+Reference = J8;
+ValeurCmp = HEADER_4;
+IdModule  = SIL-2-2-drilled-guiding_holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEBBC3;
+Reference = J9;
+ValeurCmp = HEADER_4;
+IdModule  = SIL-2-2-drilled-guiding_holes-offset;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D86F1D;
+Reference = R1;
+ValeurCmp = 0;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EED313;
+Reference = R2;
+ValeurCmp = 0;
+IdModule  = r_0805;
+EndCmp
+
+EndListe
