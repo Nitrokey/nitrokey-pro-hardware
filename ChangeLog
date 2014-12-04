@@ -1,3 +1,8 @@
+2014-12-04 Jan Suhr
+    * LED moved and board extended by 0.1 mm
+    * 3D model added
+    * files restructured
+
 2014-11-25 Jan Suhr
     * Added slots for lands of casing
     * Changed label on PCB
