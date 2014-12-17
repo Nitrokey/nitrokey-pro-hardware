@@ -1,0 +1,149 @@
+.HEADER
+LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 2014/11/8.16:26:0 1
+.END_HEADER
+
+#
+.ELECTRICAL
+	"ABM8G" "535-10283-1-ND" MM 1
+	0 -1.1 1.8 0
+	0 -1.1 -1.8 0
+	0 1.1 -1.8 0
+	0 1.1 1.8 0
+	0 -1.1 1.8 0
+.END_ELECTRICAL
+
+# C1005C0G1H270J050BA
+.ELECTRICAL
+	"C0402" "C1005C0G1H270J050BA" MM 0.5
+	0 -0.5 0.25 0 
+	0 -0.5 -0.25 0
+	0 0.5 -0.25 0
+	0 0.5 0.25 0
+	0 -0.5 0.25 0
+.END_ELECTRICAL
+
+# C1005X5R1A475M050BC
+.ELECTRICAL
+	"C0402" "C1005X5R1A475M050BC" MM 0.5
+	0 -0.5 0.25 0 
+	0 -0.5 -0.25 0
+	0 0.5 -0.25 0
+	0 0.5 0.25 0
+	0 -0.5 0.25 0
+.END_ELECTRICAL
+
+# C1005X7R1C104M050BC
+.ELECTRICAL
+	"C0402" "C1005X7R1C104M050BC" MM 0.5
+	0 -0.5 0.25 0 
+	0 -0.5 -0.25 0
+	0 0.5 -0.25 0
+	0 0.5 0.25 0
+	0 -0.5 0.25 0
+.END_ELECTRICAL
+
+# C1005X7R1E103K050BB
+.ELECTRICAL
+	"C0402" "C1005X7R1E103K050BB" MM 0.5
+	0 -0.5 0.25 0 
+	0 -0.5 -0.25 0
+	0 0.5 -0.25 0
+	0 0.5 0.25 0
+	0 -0.5 0.25 0
+.END_ELECTRICAL
+
+#
+.ELECTRICAL
+	"KPHBM-2012SURKCGKC" "element14.com 1686079RL" MM 0.45
+	0 -0.625 1 0
+	0 -0.625 -1 0
+	0 0.625 -1 0
+	0 0.625 1 0
+	0 -0.625 1 0
+.END_ELECTRICAL
+
+# SIM_JACKET
+# Max width is 13.05
+# Using width of 12.65 (excluded the mounting pads, see manuall) 
+# because it overlaps with the LED
+.ELECTRICAL
+	"Molex 0786463001" "WM9364CT-ND" MM 1.45
+	0 -6.325 7.725 0
+	0 -6.325 -7.725 0
+	0 6.325 -7.725 0
+	0 6.325 7.725 0
+	0 -6.325 7.725 0
+.END_ELECTRICAL
+
+.ELECTRICAL
+"QFN36" "497-11534-ND" MM 1.0000
+1 -3.1500 -3.1500 0
+1 3.1500 -3.1500 0
+1 3.1500 3.1500 0
+1 -3.1500 3.1500 0
+1 -3.1500 -3.1500 0
+.END_ELECTRICAL
+
+#
+.ELECTRICAL
+	"r_0402" "RC0402FR-07510RL" MM 0.35
+	0 -0.5 0.25 0
+	0 -0.5 -0.25 0
+	0 0.5 -0.25 0
+	0 0.5 0.25 0
+	0 -0.5 0.25 0
+.END_ELECTRICAL
+
+# RC0402FR-0710KL
+# http://www.digchip.com/datasheets/parts/datasheet/1838/RC0402FR-0710KL-pdf.php
+.ELECTRICAL
+	"RC0402FR-0710KL" "" MM 0.35
+	0 -0.25 0.5 0
+	0 -0.25 -0.5 0
+	0 0.25 -0.5 0
+	0 0.25 0.5 0
+	0 -0.25 0.5 0
+.END_ELECTRICAL
+
+#
+.ELECTRICAL
+	"SOT363" "NUF2221W1T2GOSCT-ND" MM 1.1
+	0 -1.1 1.1 0
+	0 -1.1 -1.1 0
+	0 1.1 -1.1 0
+	0 1.1 1.1 0
+	0 -1.1 1.1 0
+.END_ELECTRICAL
+
+# X tolerance +/- 0.2
+.ELECTRICAL
+	"TSOT23-5" "576-2835-1-ND or ADP121-AUJZ33R7CT-ND" MM 1.45
+	0 -1.40 1.45 0
+	0 -1.40 -1.45 0
+	0 1.40 -1.45 0
+	0 1.40 1.45 0
+	0 -1.40 1.45 0
+.END_ELECTRICAL
+
+# Height offset: 	 
+# horizontal offset: 6.35
+.ELECTRICAL
+	"USB-A-PLUG" "WM3983TR-ND" MM 2.10
+	0 -9.375 6 0
+	0 -9.375 -6 0 
+	0 9.375 -6 0
+	0 9.375 6 0
+	0 -9.375 6 0
+.END_ELECTRICAL
+
+# 2.40mm is the rest of the usb minus 1.0mm for
+# the pcb thickness = 1.40mm
+# distance from pcb = 0.23mm (also measured at kicad)
+.ELECTRICAL
+	"USB-A-PLUG-the-rest" "the-rest" MM 1.40
+	0 -5.355 6 0
+	0 -5.355 -6 0 
+	0 9.375 -6 0
+	0 9.375 6 0
+	0 -5.355 6 0
+.END_ELECTRICAL
