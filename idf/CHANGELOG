@@ -1,0 +1,30 @@
+Create .ELECTRICAL sections for each type of part (following the datasheets found at BOM)
+It's prefered to have the point (0,0) at the center of the rectangular area of the component
+Use maximum height (including any tolerance)
+Also include the width of the pads (wherever applicable, see datasheets)
+
+Split USB plug in two parts. One placed on TOP and the other on the BOTTOM of the PCB.
+There will be a gap between the two of them at the same z-coord with the PCB. 
+This is ok, but take care to substract this height from the two USB parts such that
+the final "emulated" USB component is exact both in total height and in z positioning.
+
+
+
+Smartcard slot shorted by the amount of it's pads length (the LED overlaps with them)
+
+Added PCB slots (1x1 mm) (.BOARD_OUTLINE section)
+
+Removed some drills. They were appearing as components at the casing-engineer tools
+
+Centering USB to PCB:
+First calculate the center of the pcb: (y1+y2)/2 and the set that to the USB placement
+
+Moving mounting placement of USB, following the datasheet suggestion
+
+Added tolerances to:
+ PCB: The slots where moved away of pcb (following the width tolerance). No resizing of them
+ USB: length with general tolerance
+ LED: both dims with general tolerance
+ Smartcard slot: both dims with general tolerance
+assuming that tolerances are halfed at each side
+Be carefull about the signs of the coords!

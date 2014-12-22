@@ -52,27 +52,30 @@ LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 201
 	0 -0.5 0.25 0
 .END_ELECTRICAL
 
-#
+# Tolerance +/- 0.1 mm for both dimensions
 .ELECTRICAL
 	"KPHBM-2012SURKCGKC" "element14.com 1686079RL" MM 0.45
-	0 -0.625 1 0
-	0 -0.625 -1 0
-	0 0.625 -1 0
-	0 0.625 1 0
-	0 -0.625 1 0
+	0 -0.630 1.05 0
+	0 -0.630 -1.05 0
+	0 0.630 -1.05 0
+	0 0.630 1.05 0
+	0 -0.630 1.05 0
 .END_ELECTRICAL
 
 # SIM_JACKET
 # Max width is 13.05
 # Using width of 12.65 (excluded the mounting pads, see manuall) 
 # because it overlaps with the LED
+#
+# Tolerance 0.2mm each dimension
+# thus 0.1mm for each of the 4 sides
 .ELECTRICAL
 	"Molex 0786463001" "WM9364CT-ND" MM 1.45
-	0 -6.325 7.725 0
-	0 -6.325 -7.725 0
-	0 6.325 -7.725 0
-	0 6.325 7.725 0
-	0 -6.325 7.725 0
+	0 -6.425 7.825 0
+	0 -6.425 -7.825 0
+	0 6.425 -7.825 0
+	0 6.425 7.825 0
+	0 -6.425 7.825 0
 .END_ELECTRICAL
 
 .ELECTRICAL
@@ -127,23 +130,26 @@ LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 201
 
 # Height offset: 	 
 # horizontal offset: 6.35
+# width tolerance = +/- 0.10 mm -> 0.05 mm per side
+# length tolerance = 0.25 mm (general tolerance) (only in one side, the other one is fixed to the pcb)
 .ELECTRICAL
 	"USB-A-PLUG" "WM3983TR-ND" MM 2.10
-	0 -9.375 6 0
-	0 -9.375 -6 0 
-	0 9.375 -6 0
-	0 9.375 6 0
-	0 -9.375 6 0
+	0 -9.375 6.05 0
+	0 -9.375 -6.05 0 
+	0 9.625 -6.05 0
+	0 9.625 6.05 0
+	0 -9.375 6.05 0
 .END_ELECTRICAL
 
 # 2.40mm is the rest of the usb minus 1.0mm for
 # the pcb thickness = 1.40mm
-# distance from pcb = 0.23mm (also measured at kicad)
+# OLD:distance from pcb = 0.23mm (also measured at kicad)
+# Distance from pcb with the manual 0.25 mm
 .ELECTRICAL
 	"USB-A-PLUG-the-rest" "the-rest" MM 1.40
-	0 -5.355 6 0
-	0 -5.355 -6 0 
-	0 9.375 -6 0
-	0 9.375 6 0
-	0 -5.355 6 0
+	0 -5.605 6.05 0
+	0 -5.605 -6.05 0 
+	0 9.375 -6.05 0
+	0 9.375 6.05 0
+	0 -5.605 6.05 0
 .END_ELECTRICAL

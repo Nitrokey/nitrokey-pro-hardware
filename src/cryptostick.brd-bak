@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Thu 04 Dec 2014 22:27:05 CET
+PCBNEW-BOARD Version 2 date Thu 04 Dec 2014 22:29:38 CET
 
 # Created by Pcbnew(22-Jun-2014 BZR 4027)-stable
 
@@ -63,7 +63,7 @@ SolderMaskMinWidth 0
 Pad2PasteClearanceRatio -0.1
 AuxiliaryAxisOrg 127 98.9965
 VisibleElements 7FFFFBBF
-PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ../gerber/))
 $EndSETUP
 
 $EQUIPOT
