@@ -70,7 +70,7 @@ LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 201
 # Tolerance 0.2mm each dimension
 # thus 0.1mm for each of the 4 sides
 .ELECTRICAL
-	"Molex 0786463001" "WM9364CT-ND" MM 1.45
+	"Molex 0786463001" "WM9364CT-ND" MM 1.55
 	0 -6.425 7.825 0
 	0 -6.425 -7.825 0
 	0 6.425 -7.825 0
@@ -133,7 +133,7 @@ LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 201
 # width tolerance = +/- 0.10 mm -> 0.05 mm per side
 # length tolerance = 0.25 mm (general tolerance) (only in one side, the other one is fixed to the pcb)
 .ELECTRICAL
-	"USB-A-PLUG" "WM3983TR-ND" MM 2.10
+	"USB-A-PLUG" "WM3983TR-ND" MM 2.15
 	0 -9.375 6.05 0
 	0 -9.375 -6.05 0 
 	0 9.625 -6.05 0
@@ -146,7 +146,7 @@ LIBRARY_FILE 3.0 "Created by Created by KiCad (2014-11-30 BZR 5308)-product" 201
 # OLD:distance from pcb = 0.23mm (also measured at kicad)
 # Distance from pcb with the manual 0.25 mm
 .ELECTRICAL
-	"USB-A-PLUG-the-rest" "the-rest" MM 1.40
+	"USB-A-PLUG-the-rest" "the-rest" MM 1.45
 	0 -5.605 6.05 0
 	0 -5.605 -6.05 0 
 	0 9.375 -6.05 0
