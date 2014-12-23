@@ -28,3 +28,5 @@ Added tolerances to:
  Smartcard slot: both dims with general tolerance
 assuming that tolerances are halfed at each side
 Be carefull about the signs of the coords!
+
+Added height tolerance for USB and Molex
