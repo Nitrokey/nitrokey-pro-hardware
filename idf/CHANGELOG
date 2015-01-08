@@ -30,3 +30,5 @@ assuming that tolerances are halfed at each side
 Be carefull about the signs of the coords!
 
 Added height tolerance for USB and Molex
+
+Resized slots' width from 1.00mm to 0.70mm. The center is kept the same
