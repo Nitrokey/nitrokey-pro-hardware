@@ -32,3 +32,7 @@ Be carefull about the signs of the coords!
 Added height tolerance for USB and Molex
 
 Resized slots' width from 1.00mm to 0.70mm. The center is kept the same
+
+Added 0.5mm of PCB for the PCB-cutter tolerance
+
+Moved USB plug 1mm up
