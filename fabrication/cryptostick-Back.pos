@@ -1,6 +1,10 @@
-### Module positions - created on Mon 27 Apr 2015 22:19:47 CEST ###
+### Module positions - created on Mon 27 Apr 2015 22:47:09 CEST ###
 ### Printed by Pcbnew version pcbnew (25-Oct-2014 BZR 4029)-stable
 ## Unit = mm, Angle = deg.
 ## Side : Front
 # Ref    Val                  Package         PosX       PosY        Rot     Side
+D1       DUAL_LED         KPHBM-2012SURKCG  -10.9600    -1.2335     270.0    Back
+D1       DUAL_LED         KPHBM-2012SURKCG  -10.9600    -1.2335     270.0    Back
+J1       SIM_JACKET       molex78646-3001    -3.7465    -0.0635      90.0    Back
+J1       SIM_JACKET       molex78646-3001    -3.7465    -0.0635      90.0    Back
 ## End
