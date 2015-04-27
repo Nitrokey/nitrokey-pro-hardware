@@ -1,0 +1,12 @@
+### Module positions - created on Mon 27 Apr 2015 22:19:47 CEST ###
+### Printed by Pcbnew version pcbnew (25-Oct-2014 BZR 4029)-stable
+## Unit = mm, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+U1       STM32F103TB      QFN36              -4.2494    -1.3487       0.0    Front
+U1       STM32F103TB      QFN36              -4.2494    -1.3487       0.0    Front
+U2       CAT6217-330      TSOT23-5            2.3495    -3.0505      90.0    Front
+U2       CAT6217-330      TSOT23-5            2.3495    -3.0505      90.0    Front
+U3       NUF2221W1        SOT363              2.1996     1.1989     270.0    Front
+U3       NUF2221W1        SOT363              2.1996     1.1989     270.0    Front
+## End
