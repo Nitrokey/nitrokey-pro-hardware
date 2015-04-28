@@ -7,4 +7,6 @@ D1       DUAL_LED         KPHBM-2012SURKCG  -10.9600    -1.2335     270.0    Bac
 D1       DUAL_LED         KPHBM-2012SURKCG  -10.9600    -1.2335     270.0    Back
 J1       SIM_JACKET       molex78646-3001    -3.7465    -0.0635      90.0    Back
 J1       SIM_JACKET       molex78646-3001    -3.7465    -0.0635      90.0    Back
+J2       USB_A            USB-A-PLUG         15.2114    -0.4224       0.0    Front
+J2       USB_A            USB-A-PLUG         15.2114    -0.4224       0.0    Front
 ## End
