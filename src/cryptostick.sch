@@ -1,25 +1,18 @@
 EESchema Schematic File Version 2
+LIBS:cryptostick-rescue
 LIBS:crystal-gnd
 LIBS:nuf2221w1
 LIBS:stm32f103
 LIBS:cat6217-330
 LIBS:stf202
 LIBS:power
+LIBS:device
+LIBS:conn
 LIBS:sst25vf032b
 LIBS:cryptostick-cache
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
-LIBS:cryptostick-cache
-EELAYER 27 0
+LIBS:CONNECTOR
+LIBS:ref-packages
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -292,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 6300 5300 6400
 $Comp
-L R R3
+L R-RESCUE-cryptostick R3
 U 1 1 5155A7EA
 P 5200 5850
 F 0 "R3" V 5280 5850 50  0000 C CNN
@@ -303,7 +296,7 @@ F 3 "" H 5200 5850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR7
+L GND-RESCUE-cryptostick #PWR7
 U 1 1 500508DE
 P 2750 1250
 F 0 "#PWR7" H 2750 1250 30  0001 C CNN
@@ -314,7 +307,7 @@ F 3 "" H 2750 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-cryptostick C5
 U 1 1 500508D3
 P 3100 1100
 F 0 "C5" H 3150 1200 50  0000 L CNN
@@ -325,7 +318,7 @@ F 3 "" H 3100 1100 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR1
+L GND-RESCUE-cryptostick #PWR1
 U 1 1 5005072E
 P 1600 1700
 F 0 "#PWR1" H 1600 1700 30  0001 C CNN
@@ -347,7 +340,7 @@ F 3 "" H 2600 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND-RESCUE-cryptostick #PWR11
 U 1 1 4F801E27
 P 4400 7150
 F 0 "#PWR11" H 4400 7150 30  0001 C CNN
@@ -358,7 +351,7 @@ F 3 "" H 4400 7150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-cryptostick R2
 U 1 1 4F801E05
 P 4700 5450
 F 0 "R2" V 4780 5450 50  0000 C CNN
@@ -391,7 +384,7 @@ F 3 "" H 5200 1150 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR14
+L GND-RESCUE-cryptostick #PWR14
 U 1 1 4F4EDF5A
 P 5150 1950
 F 0 "#PWR14" H 5150 1950 30  0001 C CNN
@@ -413,7 +406,7 @@ F 3 "" H 4850 1500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND-RESCUE-cryptostick #PWR4
 U 1 1 4E82CDD0
 P 1850 3600
 F 0 "#PWR4" H 1850 3600 30  0001 C CNN
@@ -498,7 +491,7 @@ SWDIO
 Text Label 5250 2250 3    60   ~ 0
 SWCLK
 $Comp
-L CP1 C11
+L CP1-RESCUE-cryptostick C11
 U 1 1 4E2D79C8
 P 7350 2700
 F 0 "C11" H 7400 2800 50  0000 L CNN
@@ -509,7 +502,7 @@ F 3 "" H 7350 2700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C9
+L CP1-RESCUE-cryptostick C9
 U 1 1 4E2D79BC
 P 6600 1600
 F 0 "C9" H 6650 1700 50  0000 L CNN
@@ -520,7 +513,7 @@ F 3 "" H 6600 1600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND-RESCUE-cryptostick #PWR13
 U 1 1 4E2D76FE
 P 4850 6100
 F 0 "#PWR13" H 4850 6100 30  0001 C CNN
@@ -531,7 +524,7 @@ F 3 "" H 4850 6100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-cryptostick R1
 U 1 1 4E2D766E
 P 4400 5700
 F 0 "R1" V 4480 5700 50  0000 C CNN
@@ -542,7 +535,7 @@ F 3 "" H 4400 5700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR15
+L GND-RESCUE-cryptostick #PWR15
 U 1 1 4E2D6DF1
 P 5300 6400
 F 0 "#PWR15" H 5300 6400 30  0001 C CNN
@@ -553,7 +546,7 @@ F 3 "" H 5300 6400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND-RESCUE-cryptostick #PWR5
 U 1 1 4E2D6A81
 P 2600 4700
 F 0 "#PWR5" H 2600 4700 30  0001 C CNN
@@ -564,7 +557,7 @@ F 3 "" H 2600 4700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-cryptostick C3
 U 1 1 4E2D6A2C
 P 2600 4400
 F 0 "C3" H 2650 4500 50  0000 L CNN
@@ -586,7 +579,7 @@ F 3 "" H 5850 4500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-cryptostick C7
 U 1 1 4E2D6573
 P 5850 4800
 F 0 "C7" H 5900 4900 50  0000 L CNN
@@ -597,7 +590,7 @@ F 3 "" H 5850 4800 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR18
+L GND-RESCUE-cryptostick #PWR18
 U 1 1 4E2D6572
 P 5850 5100
 F 0 "#PWR18" H 5850 5100 30  0001 C CNN
@@ -619,7 +612,7 @@ F 3 "" H 2700 4050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-cryptostick C4
 U 1 1 4E2D63F9
 P 2900 3900
 F 0 "C4" H 2950 4000 50  0000 L CNN
@@ -630,7 +623,7 @@ F 3 "" H 2900 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND-RESCUE-cryptostick #PWR9
 U 1 1 4E2D63F8
 P 3100 3800
 F 0 "#PWR9" H 3100 3800 30  0001 C CNN
@@ -652,7 +645,7 @@ F 3 "" H 3350 3050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-cryptostick C6
 U 1 1 4E2D167B
 P 3150 3100
 F 0 "C6" H 3200 3200 50  0000 L CNN
@@ -663,7 +656,7 @@ F 3 "" H 3150 3100 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR8
+L GND-RESCUE-cryptostick #PWR8
 U 1 1 4E2D167A
 P 2850 3200
 F 0 "#PWR8" H 2850 3200 30  0001 C CNN
@@ -674,7 +667,7 @@ F 3 "" H 2850 3200 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR20
+L GND-RESCUE-cryptostick #PWR20
 U 1 1 4E2D1452
 P 6450 3300
 F 0 "#PWR20" H 6450 3300 30  0001 C CNN
@@ -685,7 +678,7 @@ F 3 "" H 6450 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-cryptostick C8
 U 1 1 4E2D1296
 P 6050 3200
 F 0 "C8" H 6100 3300 50  0000 L CNN
@@ -707,7 +700,7 @@ F 3 "" H 5850 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR26
+L GND-RESCUE-cryptostick #PWR26
 U 1 1 4E2CDAFB
 P 7350 2950
 F 0 "#PWR26" H 7350 2950 30  0001 C CNN
@@ -718,7 +711,7 @@ F 3 "" H 7350 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-cryptostick C10
 U 1 1 4E2CD9BD
 P 7350 1400
 F 0 "C10" H 7400 1500 50  0000 L CNN
@@ -740,7 +733,7 @@ F 3 "" H 6450 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR21
+L GND-RESCUE-cryptostick #PWR21
 U 1 1 4E2CD951
 P 6600 1850
 F 0 "#PWR21" H 6600 1850 30  0001 C CNN
@@ -751,7 +744,7 @@ F 3 "" H 6600 1850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR27
+L GND-RESCUE-cryptostick #PWR27
 U 1 1 4E2CD945
 P 7550 1550
 F 0 "#PWR27" H 7550 1550 30  0001 C CNN
@@ -762,7 +755,7 @@ F 3 "" H 7550 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND-RESCUE-cryptostick #PWR22
 U 1 1 4E2CD8F1
 P 7050 2650
 F 0 "#PWR22" H 7050 2650 30  0001 C CNN
@@ -784,7 +777,7 @@ F 3 "" H 7050 1950 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR3
+L GND-RESCUE-cryptostick #PWR3
 U 1 1 4E2CD35B
 P 1775 3900
 F 0 "#PWR3" H 1775 3900 30  0001 C CNN
@@ -795,7 +788,7 @@ F 3 "" H 1775 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND-RESCUE-cryptostick #PWR2
 U 1 1 4E2CD351
 P 1775 3300
 F 0 "#PWR2" H 1775 3300 30  0001 C CNN
@@ -806,7 +799,7 @@ F 3 "" H 1775 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-cryptostick C2
 U 1 1 4E2CD2C4
 P 2050 3750
 F 0 "C2" H 2100 3850 50  0000 L CNN
@@ -817,7 +810,7 @@ F 3 "" H 2050 3750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-cryptostick C1
 U 1 1 4E2CD2B1
 P 2050 3150
 F 0 "C1" H 2100 3250 50  0000 L CNN
@@ -832,7 +825,7 @@ D+_PLUG
 Text Label 8800 4000 2    60   ~ 0
 D-_PLUG
 $Comp
-L GND #PWR25
+L GND-RESCUE-cryptostick #PWR25
 U 1 1 4E2CCCBB
 P 7250 4150
 F 0 "#PWR25" H 7250 4150 30  0001 C CNN
@@ -843,7 +836,7 @@ F 3 "" H 7250 4150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR28
+L GND-RESCUE-cryptostick #PWR28
 U 1 1 4E2CCC8D
 P 9850 4550
 F 0 "#PWR28" H 9850 4550 30  0001 C CNN
@@ -880,7 +873,7 @@ Wire Wire Line
 Text Label 3950 2350 0    60   ~ 0
 BOOT0
 $Comp
-L R R4
+L R-RESCUE-cryptostick R4
 U 1 1 530CE60F
 P 6700 5750
 F 0 "R4" V 6780 5750 40  0000 C CNN
@@ -912,7 +905,7 @@ F 3 "" H 7100 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L GND-RESCUE-cryptostick #PWR24
 U 1 1 530CE9BD
 P 7100 5800
 F 0 "#PWR24" H 7100 5800 30  0001 C CNN
@@ -942,4 +935,65 @@ F 3 "~" H 6700 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6450 5450
+$Comp
+L TEST_1P W1
+U 1 1 5A282959
+P 8800 5500
+F 0 "W1" H 8800 5770 50  0000 C CNN
+F 1 "TEST_1P" H 8800 5700 50  0000 C CNN
+F 2 "SMD_Packages:1Pin" H 9000 5500 50  0001 C CNN
+F 3 "" H 9000 5500 50  0000 C CNN
+	1    8800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W2
+U 1 1 5A282E6C
+P 9150 5500
+F 0 "W2" H 9150 5770 50  0000 C CNN
+F 1 "TEST_1P" H 9150 5700 50  0000 C CNN
+F 2 "SMD_Packages:1Pin" H 9350 5500 50  0001 C CNN
+F 3 "" H 9350 5500 50  0000 C CNN
+	1    9150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W3
+U 1 1 5A282FD2
+P 9500 5500
+F 0 "W3" H 9500 5770 50  0000 C CNN
+F 1 "TEST_1P" H 9500 5700 50  0000 C CNN
+F 2 "SMD_Packages:1Pin" H 9700 5500 50  0001 C CNN
+F 3 "" H 9700 5500 50  0000 C CNN
+	1    9500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W4
+U 1 1 5A28303D
+P 9850 5500
+F 0 "W4" H 9850 5770 50  0000 C CNN
+F 1 "TEST_1P" H 9850 5700 50  0000 C CNN
+F 2 "SMD_Packages:1Pin" H 10050 5500 50  0001 C CNN
+F 3 "" H 10050 5500 50  0000 C CNN
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+Text Label 9150 5500 3    60   ~ 0
+D+_PLUG
+Text Label 9500 5500 3    60   ~ 0
+D-_PLUG
+$Comp
+L GND-RESCUE-cryptostick #PWR?
+U 1 1 5A2836B7
+P 9850 5500
+F 0 "#PWR?" H 9850 5500 30  0001 C CNN
+F 1 "GND" H 9850 5430 30  0001 C CNN
+F 2 "" H 9850 5500 60  0001 C CNN
+F 3 "" H 9850 5500 60  0001 C CNN
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+Text Label 8800 5500 3    60   ~ 0
+VBUS
 $EndSCHEMATC
