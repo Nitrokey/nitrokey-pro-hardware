@@ -1,0 +1,177 @@
+Info: Reading netlist file "/Users/glozikadam/Google Drive/PROJECTS/nitrokey-pro-hardware/src/cryptostick.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'J1': board footprint 'molex78646-3001', netlist footprint 'molex 78646-3001'
+
+Info: Checking netlist component footprint "C1:/4E2CD2B1:c_0402".
+
+Changing component "C1:/4E2CD2B1" pin "2" net name from "GND" to "Net-(C1-Pad2)".
+
+Info: Checking netlist component footprint "C2:/4E2CD2C4:c_0402".
+
+Changing component "C2:/4E2CD2C4" pin "2" net name from "GND" to "Net-(C2-Pad2)".
+
+Info: Checking netlist component footprint "C3:/4E2D6A2C:c_0402".
+
+Changing component "C3:/4E2D6A2C" pin "2" net name from "GND" to "Net-(C3-Pad2)".
+
+Info: Checking netlist component footprint "C4:/4E2D63F9:c_0402".
+
+Changing component "C4:/4E2D63F9" pin "1" net name from "GND" to "Net-(C4-Pad1)".
+
+Info: Checking netlist component footprint "C5:/500508D3:c_0402".
+
+Changing component "C5:/500508D3" pin "2" net name from "GND" to "Net-(C5-Pad2)".
+
+Info: Checking netlist component footprint "C6:/4E2D167B:c_0402".
+
+Changing component "C6:/4E2D167B" pin "1" net name from "GND" to "Net-(C6-Pad1)".
+
+Info: Checking netlist component footprint "C7:/4E2D6573:c_0402".
+
+Changing component "C7:/4E2D6573" pin "1" net name from "GND" to "Net-(C7-Pad1)".
+
+Info: Checking netlist component footprint "C8:/4E2D1296:c_0402".
+
+Changing component "C8:/4E2D1296" pin "1" net name from "GND" to "Net-(C8-Pad1)".
+
+Info: Checking netlist component footprint "C9:/4E2D79BC:c_0402".
+
+Changing component "C9:/4E2D79BC" pin "2" net name from "GND" to "Net-(C9-Pad2)".
+
+Info: Checking netlist component footprint "C10:/4E2CD9BD:c_0402".
+
+Changing component "C10:/4E2CD9BD" pin "2" net name from "GND" to "Net-(C10-Pad2)".
+
+Info: Checking netlist component footprint "C11:/4E2D79C8:c_0402".
+
+Changing component "C11:/4E2D79C8" pin "2" net name from "GND" to "Net-(C11-Pad2)".
+
+Info: Checking netlist component footprint "D1:/4F801DB4:KPHBM-2012SURKCGKC".
+
+Changing component "D1:/4F801DB4" pin "2" net name from "GND" to "Net-(D1-Pad2)".
+
+Changing component "D1:/4F801DB4" pin "3" net name from "GND" to "Net-(D1-Pad3)".
+
+Info: Checking netlist component footprint "J1:/500506A8:molex 78646-3001".
+
+Changing component "J1:/500506A8" pin "5" net name from "GND" to "Net-(J1-Pad5)".
+
+Changing component "J1:/500506A8" pin "6" net name from "" to "Net-(J1-Pad6)".
+
+Info: Checking netlist component footprint "J2:/4E27DE01:USB-A-PLUG".
+
+Changing component "J2:/4E27DE01" pin "4" net name from "GND" to "Net-(J2-Pad4)".
+
+Info: Checking netlist component footprint "JP1:/531358A7:jumper_drilled".
+
+Info: Checking netlist component footprint "P1:/4F507292:SIL-2-2-drilled-offset".
+
+Changing component "P1:/4F507292" pin "2" net name from "GND" to "Net-(P1-Pad2)".
+
+Info: Checking netlist component footprint "R1:/4E2D766E:r_0402".
+
+Info: Checking netlist component footprint "R2:/4F801E05:r_0402".
+
+Info: Checking netlist component footprint "R3:/5155A7EA:r_0402".
+
+Changing component "R3:/5155A7EA" pin "1" net name from "GND" to "Net-(R3-Pad1)".
+
+Info: Checking netlist component footprint "R4:/530CE60F:r_0402".
+
+Changing component "R4:/530CE60F" pin "2" net name from "GND" to "Net-(R4-Pad2)".
+
+Info: Checking netlist component footprint "U1:/4E68666C:QFN36".
+
+Changing component "U1:/4E68666C" pin "5" net name from "GND" to "Net-(C4-Pad1)".
+
+Changing component "U1:/4E68666C" pin "7" net name from "" to "Net-(U1-Pad7)".
+
+Changing component "U1:/4E68666C" pin "8" net name from "" to "Net-(U1-Pad8)".
+
+Changing component "U1:/4E68666C" pin "9" net name from "" to "Net-(U1-Pad9)".
+
+Changing component "U1:/4E68666C" pin "10" net name from "" to "Net-(U1-Pad10)".
+
+Changing component "U1:/4E68666C" pin "11" net name from "" to "Net-(U1-Pad11)".
+
+Changing component "U1:/4E68666C" pin "12" net name from "" to "Net-(U1-Pad12)".
+
+Changing component "U1:/4E68666C" pin "13" net name from "" to "Net-(U1-Pad13)".
+
+Changing component "U1:/4E68666C" pin "16" net name from "" to "Net-(U1-Pad16)".
+
+Changing component "U1:/4E68666C" pin "18" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "26" net name from "GND" to "Net-(C8-Pad1)".
+
+Changing component "U1:/4E68666C" pin "34" net name from "" to "Net-(U1-Pad34)".
+
+Changing component "U1:/4E68666C" pin "36" net name from "GND" to "Net-(C6-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Changing component "U1:/4E68666C" pin "37" net name from "GND" to "Net-(C7-Pad1)".
+
+Info: Checking netlist component footprint "U2:/4E2CD88E:TSOT23-5".
+
+Changing component "U2:/4E2CD88E" pin "2" net name from "GND" to "Net-(U2-Pad2)".
+
+Info: Checking netlist component footprint "U3:/4E521576:SOT363".
+
+Changing component "U3:/4E521576" pin "2" net name from "GND" to "Net-(U3-Pad2)".
+
+Info: Checking netlist component footprint "W1:/5A282959:SMD_Packages:1Pin".
+
+Adding new component "W1:/5A282959" footprint "SMD_Packages:1Pin".
+
+Changing component "W1:/5A282959" pin "1" net name from "" to "/VBUS".
+
+Info: Checking netlist component footprint "W2:/5A282E6C:SMD_Packages:1Pin".
+
+Adding new component "W2:/5A282E6C" footprint "SMD_Packages:1Pin".
+
+Changing component "W2:/5A282E6C" pin "1" net name from "" to "/D+_PLUG".
+
+Info: Checking netlist component footprint "W3:/5A282FD2:SMD_Packages:1Pin".
+
+Adding new component "W3:/5A282FD2" footprint "SMD_Packages:1Pin".
+
+Changing component "W3:/5A282FD2" pin "1" net name from "" to "/D-_PLUG".
+
+Info: Checking netlist component footprint "W4:/5A28303D:SMD_Packages:1Pin".
+
+Adding new component "W4:/5A28303D" footprint "SMD_Packages:1Pin".
+
+Changing component "W4:/5A28303D" pin "1" net name from "" to "Net-(W4-Pad1)".
+
+Info: Checking netlist component footprint "X1:/4E82CD9F:ABM8G".
+
+Changing component "X1:/4E82CD9F" pin "3" net name from "GND" to "Net-(X1-Pad3)".
+
+Changing component "X1:/4E82CD9F" pin "3" net name from "GND" to "Net-(X1-Pad3)".
+
+Error: Component 'J1' pad '8' not found in footprint 'molex78646-3001'
+
+Error: Component 'J1' pad '4' not found in footprint 'molex78646-3001'
+
+Warning: Copper zone (net name ''): net has no pads connected.
+Warning: Copper zone (net name ''): net has no pads connected.
+Warning: Copper zone (net name ''): net has no pads connected.

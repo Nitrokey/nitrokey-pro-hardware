@@ -1,6 +1,6 @@
-update=06-Dec-17 5:51:29 PM
+update=2018. Április 02., Hétfő 20:41:56
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
@@ -96,3 +96,5 @@ LibName21=w_transistor
 LibName22=w_vacuum
 LibName23=CONNECTOR
 LibName24=ref-packages
+LibName25=library/debug
+LibName26=library/df5a5
