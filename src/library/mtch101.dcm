@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MTCH101
+D Single Channel proximity Detectot
+K Capacitive Soft Touch Button
+F 40001664B.PDF
+$ENDCMP
+#
+$CMP TouchPAD
+D Touch pad
+$ENDCMP
+#
+#End Doc Library

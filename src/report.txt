@@ -1,0 +1,191 @@
+Info: Reading netlist file "/Users/glozikadam/Google Drive/PROJECTS/Nitrokey/nitrokey-pro-hardware/src/cryptostick.net".
+
+Info: Using references to match components and footprints.
+
+Error: Component 'J1' footprint 'molex 78646-3001' was not found in any libraries in the footprint library table.
+
+Error: Component 'C12' footprint 'c_0402' was not found in any libraries in the footprint library table.
+
+Error: Component 'C13' footprint 'c_0402' was not found in any libraries in the footprint library table.
+
+Error: No footprint defined for component 'U4'.
+
+Error: No footprint defined for component 'A1'.
+
+Info: Checking netlist component footprint "A1:/5B38699F:".
+
+Error: Cannot add new component "A1:/5B38699F" due to missing footprint "".
+
+Info: Checking netlist component footprint "C1:/4E2CD2B1:c_0402".
+
+Info: Checking netlist component footprint "C2:/4E2CD2C4:c_0402".
+
+Info: Checking netlist component footprint "C3:/4E2D6A2C:c_0402".
+
+Info: Checking netlist component footprint "C4:/4E2D63F9:c_0402".
+
+Info: Checking netlist component footprint "C5:/500508D3:c_0402".
+
+Info: Checking netlist component footprint "C6:/4E2D167B:c_0402".
+
+Info: Checking netlist component footprint "C7:/4E2D6573:c_0402".
+
+Info: Checking netlist component footprint "C8:/4E2D1296:c_0402".
+
+Info: Checking netlist component footprint "C9:/4E2D79BC:c_0402".
+
+Info: Checking netlist component footprint "C10:/4E2CD9BD:c_0402".
+
+Info: Checking netlist component footprint "C11:/4E2D79C8:c_0402".
+
+Info: Checking netlist component footprint "C12:/5B384D84:c_0402".
+
+Error: Cannot add new component "C12:/5B384D84" due to missing footprint "c_0402".
+
+Info: Checking netlist component footprint "C13:/5B387B3E:c_0402".
+
+Error: Cannot add new component "C13:/5B387B3E" due to missing footprint "c_0402".
+
+Info: Checking netlist component footprint "D1:/4F801DB4:KPHBM-2012SURKCGKC".
+
+Info: Checking netlist component footprint "J1:/500506A8:molex 78646-3001".
+
+Error: Cannot replace component "J1:/500506A8" due to missing footprint "molex 78646-3001".
+
+Changing component "J1:/500506A8" pin "6" net name from "" to "Net-(J1-Pad6)".
+
+Changing component "J1:/500506A8" pin "14" net name from "" to "Net-(J1-Pad14)".
+
+Changing component "J1:/500506A8" pin "15" net name from "" to "Net-(J1-Pad15)".
+
+Changing component "J1:/500506A8" pin "10" net name from "" to "Net-(J1-Pad10)".
+
+Changing component "J1:/500506A8" pin "11" net name from "" to "Net-(J1-Pad11)".
+
+Info: Checking netlist component footprint "J2:/4E27DE01:USB-A-PLUG".
+
+Info: Checking netlist component footprint "P1:/4F507292:SIL-2-2-drilled-offset".
+
+Info: Checking netlist component footprint "p1:/5AC2130C:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "p2:/5AC211E2:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "p3:/5AC210B0:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "p4:/5AC1E9E4:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "p5:/5AC21252:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "p6:/5AC21258:footprints:Prog_Pad_Circular".
+
+Info: Checking netlist component footprint "R1:/4E2D766E:r_0402".
+
+Info: Checking netlist component footprint "R2:/4F801E05:r_0402".
+
+Info: Checking netlist component footprint "R3:/5155A7EA:r_0402".
+
+Info: Checking netlist component footprint "R4:/530CE60F:r_0402".
+
+Info: Checking netlist component footprint "R5:/5AC2D946:r_0402".
+
+Info: Checking netlist component footprint "R6:/5AC33351:r_0402".
+
+Info: Checking netlist component footprint "R7:/5AC2E2C8:r_0402".
+
+Info: Checking netlist component footprint "R8:/5B381DC6:r_0402".
+
+Changing component "R8:/5B381DC6" pin "1" net name from "" to "Net-(R8-Pad1)".
+
+Changing component "R8:/5B381DC6" pin "2" net name from "" to "Net-(J1-Pad8)".
+
+Info: Checking netlist component footprint "R9:/5B382048:r_0402".
+
+Changing component "R9:/5B382048" pin "1" net name from "" to "Net-(R9-Pad1)".
+
+Info: Checking netlist component footprint "U1:/4E68666C:QFN36".
+
+Changing component "U1:/4E68666C" pin "7" net name from "" to "Net-(U1-Pad7)".
+
+Changing component "U1:/4E68666C" pin "8" net name from "" to "/BUTTON".
+
+Changing component "U1:/4E68666C" pin "9" net name from "" to "/BUTTON_RST".
+
+Changing component "U1:/4E68666C" pin "11" net name from "" to "Net-(U1-Pad11)".
+
+Changing component "U1:/4E68666C" pin "12" net name from "" to "Net-(U1-Pad12)".
+
+Changing component "U1:/4E68666C" pin "13" net name from "" to "Net-(U1-Pad13)".
+
+Changing component "U1:/4E68666C" pin "16" net name from "" to "Net-(U1-Pad16)".
+
+Changing component "U1:/4E68666C" pin "33" net name from "" to "/I2C1_SCL".
+
+Changing component "U1:/4E68666C" pin "34" net name from "" to "/I2C1_SDA".
+
+Info: Checking netlist component footprint "U2:/4E2CD88E:TSOT23-5".
+
+Info: Checking netlist component footprint "U3:/5AC2BFCE:TO_SOT_Packages_SMD:SOT-553".
+
+Replacing component "U3:/5AC2BFCE" footprint "SOT363" with "TO_SOT_Packages_SMD:SOT-553".
+
+Changing component "U3:/5AC2BFCE" pin "1" net name from "" to "Net-(U3-Pad1)".
+
+Changing component "U3:/5AC2BFCE" pin "3" net name from "" to "/VBUS".
+
+Changing component "U3:/5AC2BFCE" pin "5" net name from "" to "/D+_PLUG".
+
+Changing component "U3:/5AC2BFCE" pin "2" net name from "" to "GND".
+
+Changing component "U3:/5AC2BFCE" pin "4" net name from "" to "/D-_PLUG".
+
+Info: Checking netlist component footprint "U4:/5B3819C0:".
+
+Error: Cannot add new component "U4:/5B3819C0" due to missing footprint "".
+
+Info: Checking netlist component footprint "X1:/4E82CD9F:ABM8G".
+
+Remove single pad net "/BUTTON" on "U1" pad '8'
+
+Remove single pad net "/BUTTON_RST" on "U1" pad '9'
+
+Remove single pad net "/I2C1_SCL" on "U1" pad '33'
+
+Remove single pad net "/I2C1_SDA" on "U1" pad '34'
+
+Remove single pad net "Net-(J1-Pad10)" on "J1" pad '10'
+
+Remove single pad net "Net-(J1-Pad11)" on "J1" pad '11'
+
+Remove single pad net "Net-(J1-Pad14)" on "J1" pad '14'
+
+Remove single pad net "Net-(J1-Pad15)" on "J1" pad '15'
+
+Remove single pad net "Net-(J1-Pad6)" on "J1" pad '6'
+
+Remove single pad net "Net-(J1-Pad8)" on "R8" pad '2'
+
+Remove single pad net "Net-(R8-Pad1)" on "R8" pad '1'
+
+Remove single pad net "Net-(R9-Pad1)" on "R9" pad '1'
+
+Remove single pad net "Net-(U1-Pad11)" on "U1" pad '11'
+
+Remove single pad net "Net-(U1-Pad12)" on "U1" pad '12'
+
+Remove single pad net "Net-(U1-Pad13)" on "U1" pad '13'
+
+Remove single pad net "Net-(U1-Pad16)" on "U1" pad '16'
+
+Remove single pad net "Net-(U1-Pad7)" on "U1" pad '7'
+
+Error: Component 'J1' pad '8' not found in footprint 'molex78646-3001'
+
+Error: Component 'J1' pad '12' not found in footprint 'molex78646-3001'
+
+Error: Component 'J1' pad '13' not found in footprint 'molex78646-3001'
+
+Error: Component 'J1' pad '9' not found in footprint 'molex78646-3001'
+
+Warning: Copper zone (net name ''): net has no pads connected.
+Warning: Copper zone (net name ''): net has no pads connected.
+Warning: Copper zone (net name ''): net has no pads connected.
