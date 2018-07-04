@@ -1,0 +1,10 @@
+(module TouchPad (layer F.Cu) (tedit 593FFD96)
+  (fp_text reference P1 (at 0.3 -3.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TouchPAD (at -1.27 -5.08) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end -0.4 -4.1) (layer F.SilkS) (width 0.15))
+  (pad 1 smd oval (at 0 0) (size 8 8) (layers F.Cu))
+)

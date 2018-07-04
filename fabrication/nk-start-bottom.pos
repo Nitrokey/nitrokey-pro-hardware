@@ -1,0 +1,8 @@
+### Module positions - created on 2018. July 04., Wednesday 00:13:10 ###
+### Printed by Pcbnew version pcbnew 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                  PosX       PosY       Rot  Side
+D1        DUAL_LED  KPHBM-2012SURKCGKC   -10.9600    -1.2335  270.0000  bottom
+P2        TouchPAD  TouchPad              -3.4544    -0.0127    0.0000  bottom
+## End

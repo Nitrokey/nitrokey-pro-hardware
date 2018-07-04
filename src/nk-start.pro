@@ -1,4 +1,4 @@
-update=2018. Július 01., Vasárnap 00:05:56
+update=2018. Július 04., Szerda 00:34:25
 version=1
 last_client=eeschema
 [general]
@@ -68,27 +68,6 @@ LibName36=SOT23-6L
 LibName37=touch pad 5mm
 LibName38=touch point
 LibName39=USB-smd
-[eeschema]
-version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=cryptostick-rescue
-LibName2=crystal-gnd
-LibName3=nuf2221w1
-LibName4=stm32f103
-LibName5=cat6217-330
-LibName6=stf202
-LibName7=power
-LibName8=device
-LibName9=conn
-LibName10=sst25vf032b
-LibName11=cryptostick-cache
-LibName12=CONNECTOR
-LibName13=ref-packages
-LibName14=library/debug
-LibName15=library/df5a5
-LibName16=library/atmel_cryptoauth
-LibName17=library/mtch101
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -99,3 +78,24 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=library
+[eeschema/libraries]
+LibName1=nk-start-rescue
+LibName2=crystal-gnd
+LibName3=nuf2221w1
+LibName4=stm32f103
+LibName5=cat6217-330
+LibName6=stf202
+LibName7=power
+LibName8=device
+LibName9=conn
+LibName10=sst25vf032b
+LibName11=CONNECTOR
+LibName12=ref-packages
+LibName13=library/debug
+LibName14=library/df5a5
+LibName15=library/atmel_cryptoauth
+LibName16=library/mtch101
+LibName17=nk-start-cache

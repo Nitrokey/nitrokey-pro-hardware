@@ -14,10 +14,9 @@ Id;Designator;Package;Quantity;Designation;Digikey Part Number;Digikey URL
 12;U3;SOT-553;1;DF5A5.6JE;DF5A5.6JELMCT-ND;https://www.digikey.com/products/en?keywords=DF5A5.6JELMCT-ND
 13;J2;USB-A-PLUG;1;USB_A;WM3983TR-ND;http://www.digikey.com/product-detail/en/0480372200/WM3983CT-ND/2421836
 14;D1;KPHBM-2012SURKCGKC;1;DUAL_LED;element14.com 1686079RL;http://www.digikey.com/product-detail/en/APHBM2012SURKCGKC/754-1093-1-ND/1747810
-15;J1;Molex 0786463001;1;SIM_JACKET;WM9364CT-ND;http://www.digikey.com/product-detail/en/0786463001/WM9364CT-ND/3770350
-16;R7;r_0402;1;1.5k;311-1.50KLRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-071K5L/311-1.50KLRCT-ND/729466
-17;R5,R6;r_0402;2;22;311-22.0LRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRCT-ND/729509
-18;U4;SOT-23-6;1;MTCH101;MTCH101-I/OT;https://www.digikey.com/product-detail/en/microchip-technology/MTCH101T-I-OT/MTCH101T-I-OTCT-ND/5169591
-19;R8;r_0402;1;4.7k;RC0402FR-074K7L;https://www.digikey.com/product-detail/en/microchip-technology/MTCH101T-I-OT/MTCH101T-I-OTCT-ND/5169591
-20;A1;DFN-8-1EP_3x3mm_Pitch0.5mm;1;ATECC508A;ATECC508A-MAHDA;https://www.digikey.com/product-detail/en/microchip-technology/ATECC508A-MAHDA-T/ATECC508A-MAHDA-TCT-ND/5213071
+15;R7;r_0402;1;1.5k;311-1.50KLRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-071K5L/311-1.50KLRCT-ND/729466
+16;R5,R6;r_0402;2;22;311-22.0LRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRCT-ND/729509
+17;U4;SOT-23-6;1;MTCH101;MTCH101-I/OT;https://www.digikey.com/product-detail/en/microchip-technology/MTCH101T-I-OT/MTCH101T-I-OTCT-ND/5169591
+18;R8;r_0402;1;4.7k;RC0402FR-074K7L;https://www.digikey.com/product-detail/en/microchip-technology/MTCH101T-I-OT/MTCH101T-I-OTCT-ND/5169591
+19;A1;DFN-8-1EP_3x3mm_Pitch0.5mm;1;ATECC508A;ATECC508A-MAHDA;https://www.digikey.com/product-detail/en/microchip-technology/ATECC508A-MAHDA-T/ATECC508A-MAHDA-TCT-ND/5213071
 ;;;;;;
