@@ -1,8 +1,8 @@
 Crypto Stick v1 PCB Design
 
-							    Version 0.1
-							     2014-01-17
-						               Jan Suhr
+Version 0.1
+2014-01-17
+Jan Suhr
 
 Introduction
 ==============
@@ -13,7 +13,6 @@ at 72MHz, and it has a SWD port for main flash ROM update.
 
 This is Crypto Stick v1 PCB design for KiCAD, based on Niibe
 Yutaka's Flying Stone Tiny 01 (FST-01).
-
 
 Files
 =====
@@ -34,7 +33,6 @@ Files
 
 Note that files under datasheet directory is copyrighted by vendors.
 
-
 Terms and conditions
 ====================
 
@@ -43,12 +41,12 @@ This work is based on Niibe Yutaka's Flying Stone Tiny 01 (FST-01) PCB Design.
 I would like to ask users to keep the design as "Open Hardware".  See
 the page for the definition of "Open Hardware":
 
-    http://www.opencollector.org/Whyfree/open_hardware.html
+http://www.opencollector.org/Whyfree/open_hardware.html
 
 Nevertheless, schematic design is distributed under Creative Commons
 Attribution 3.0 Unported License (CC BY 3.0).  See:
 
-    http://creativecommons.org/licenses/by/3.0/
+http://creativecommons.org/licenses/by/3.0/
 
 Schematic design can be used for any purpose and you don't need to
 open your modifications to my design.
@@ -56,7 +54,7 @@ open your modifications to my design.
 For PCB, it is distributed under Creative Commons
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).  See:
 
-    http://creativecommons.org/licenses/by-sa/3.0/
+http://creativecommons.org/licenses/by-sa/3.0/
 
 
 External modules
@@ -66,7 +64,7 @@ For module/SMT_CAP.mod and module/SMT_RES.mod, module drawings are
 copied from w_smd_cap.mod and w_smd_resistors.mod by W.Lain.  Files
 are available at:
 
-   http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
+http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
 
 Its copyright notice is like following:
 ---------------------------------------------------------------------
@@ -93,17 +91,19 @@ This hardware can be flashed in two different ways:
 
 * SWD protocol requires a separate programmer such as the ST-Link V2 (or cheaper clones). The SWD port or the Nitrokey PCB are the four blank contact points. You can either solder four wires or build your own adapter (see directory cs_pogo_adapter).
 
-* A bit easier would be to use DFU. It requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows.
+* *Note: Since hardware version 2.0 (after 04/04/18) flashing via DFU is no longer supported by the hardware* A bit easier would be to use DFU. It requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows.
 
+```
 Nitrokey USB Plug <-> Serial/TTL adapter
-
 Pin 1, VCC <-> VCC
 Pin 2, D-  <-> TX
 Pin 3, D+  <-> RX
 Pin 4, GND <-> GND
+```
 
 This diagram represents the pinout of the USB socket which you are going to solder:
 
+```
   ################### 
   #                 # 
   # ############### # 
@@ -114,6 +114,7 @@ This diagram represents the pinout of the USB socket which you are going to sold
      #   #   #   #    
 
      1   2   3   4
+```
 
 To flash the firmware you need to bridge the two contact holes (e.g. with a wire) and only then connect (and power) the PCB to your adapter. The bridge triggers the hardware to boot into DFU mode. You may use [STM32 Flash Loader Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html) (Windows only) or the open source command line tool [stm32flash](http://stm32flash.sourceforge.net).
 
