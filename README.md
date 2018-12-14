@@ -1,4 +1,4 @@
-Crypto Stick v1 PCB Design
+Nitrokey Pro (formerly Crypto Stick v1) PCB Design
 
 Version 0.1
 2014-01-17
@@ -63,18 +63,18 @@ are available at:
 http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
 
 Its copyright notice is like following:
----------------------------------------------------------------------
-Kicad Library by W. Lain - kcswalter@member.fsf.org
 
-This library is released under the terms of the Creative Commons
+> Kicad Library by W. Lain - kcswalter@member.fsf.org
+
+> This library is released under the terms of the Creative Commons
 license v3.0, Attribution-Share Alike.
 
-The author holds no responsibility for any damage that can be caused
+> The author holds no responsibility for any damage that can be caused
 by the usage of this library. You are however welcome to report any
 error or discrepance to the author, provided that you give also the
 correct information and its source (i.e. the correct datasheet).
 
-**Note that the author used publicly available data sheets from many
+> **Note that the author used publicly available data sheets from many
 different companies, and that package dimensions, pin numeration and
 schematic symbols may vary slightly between companies.**
 
@@ -90,7 +90,9 @@ This hardware can be flashed in two different ways:
 
 For SWD programming, connect the SWDIO, SWDCLK and GND pads to the respective pins of you ST-Link programmer. The device should be powered externally through USB  or a 5V power supply during programming.
 
-* **Note: Since hardware version 2 (after 04/04/18) flashing via DFU is no longer supported by the hardware** A bit easier would be to use DFU. It requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows.
+* DFU. 
+**Note: Since hardware version 2 (after 04/04/18) flashing via DFU is no longer supported by the hardware.** 
+DFU requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows:
 
 ```
 Nitrokey USB Plug <-> Serial/TTL adapter
