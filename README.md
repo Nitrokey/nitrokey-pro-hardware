@@ -1,11 +1,11 @@
-Nitrokey Pro (formerly Crypto Stick v1) PCB Design
+Nitrokey Pro PCB Design
 ===================================================
 
-Crypto Stick is a USB 32-bit computer with STM32F103 processor and
+Nitrokey Pro is a USB 32-bit computer with STM32F103 processor and
 an OpenPGP smart card. It has a minimalistic design, the MCU is running
 at 72MHz, and it has a SWD port for main flash ROM update.
 
-This is Crypto Stick v1 PCB design for KiCAD, based on Niibe
+This is Nitrokey PCB design for KiCAD, based on Niibe
 Yutaka's Flying Stone Tiny 01 (FST-01).
 
 Files
