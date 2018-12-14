@@ -1,9 +1,5 @@
 Nitrokey Pro (formerly Crypto Stick v1) PCB Design
 
-Version 0.1
-2014-01-17
-Jan Suhr
-
 Introduction
 ==============
 
