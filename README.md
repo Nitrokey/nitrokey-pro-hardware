@@ -90,7 +90,7 @@ This hardware can be flashed in two different ways:
 
 For SWD programming, connect the SWDIO, SWDCLK and GND pads to the respective pins of you ST-Link programmer. The device should be powered externally through USB  or a 5V power supply during programming.
 
-* **Note: Since hardware version 2.0 (after 04/04/18) flashing via DFU is no longer supported by the hardware** A bit easier would be to use DFU. It requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows.
+* **Note: Since hardware version 2 (after 04/04/18) flashing via DFU is no longer supported by the hardware** A bit easier would be to use DFU. It requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows.
 
 ```
 Nitrokey USB Plug <-> Serial/TTL adapter
