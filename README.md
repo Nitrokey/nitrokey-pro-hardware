@@ -22,7 +22,7 @@ Files
     cryptostick.brd:  PCB design
     library:          schematic library
     module:           footprint modules for PCB
-    gerber:           Gerber files of the PCB
+    fabrication:      Gerber files of the PCB
     datasheet:        Datasheets of parts
 
 Note that files under datasheet directory is copyrighted by vendors.
