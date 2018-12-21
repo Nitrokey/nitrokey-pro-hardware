@@ -1,0 +1,9 @@
+### Module positions - created on 21.12.2018 18:11:07 ###
+### Printed by Pcbnew version kicad (5.0.1)-4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                PosX       PosY       Rot  Side
+U1        STM32F103TB  QFN36               -4.2494    -1.3487    0.0000  top
+U2        CAT6217-330  TSOT23-5             1.8415    -4.3815   90.0000  top
+U3        DF5A5.6JE    SOT-553              3.4036    -1.2319   90.0000  top
+## End
