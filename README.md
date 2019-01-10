@@ -76,9 +76,11 @@ schematic symbols may vary slightly between companies.**
 Flashing
 ========
 
-This hardware can be flashed in two different ways:
+Note that any user data present on the device will be erased when flashing it. A backup is essential to prevent data loss.
 
-* SWD protocol requires a separate programmer such as the ST-Link V2 (or cheaper clones). The SWD port or the Nitrokey PCB are the four blank contact points. You can either solder four wires or build your own adapter (see directory cs_pogo_adapter). The layout of the debug connector on the PCB from v2.0 onwards is as follows:
+The hardware can be flashed in two different ways:
+
+* SWD protocol requires a separate programmer such as the ST-Link V2 (or cheaper clones). The SWD port or the Nitrokey PCB are the four blank contact points. You can either solder three wires or build your own adapter (see directory cs_pogo_adapter). The layout of the debug connector on the PCB from v2.0 onwards is as follows:
 
 ![NK Pro v2.0 Programming Connector Layout](conn_layout.png)
 
