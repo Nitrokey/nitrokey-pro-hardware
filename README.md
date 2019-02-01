@@ -76,42 +76,5 @@ schematic symbols may vary slightly between companies.**
 Flashing
 ========
 
-Note that any user data present on the device will be erased when flashing it. A backup is essential to prevent data loss.
-
-The hardware can be flashed in two different ways:
-
-* SWD protocol requires a separate programmer such as the ST-Link V2 (or cheaper clones). The SWD port or the Nitrokey PCB are the four blank contact points. You can either solder three wires or build your own adapter (see directory cs_pogo_adapter). The layout of the debug connector on the PCB from v2.0 onwards is as follows:
-
-![NK Pro v2.0 Programming Connector Layout](conn_layout.png)
-
-For SWD programming, connect the SWDIO, SWDCLK and GND pads to the respective pins of you ST-Link programmer. The device should be powered externally through USB  or a 5V power supply during programming.
-
-* DFU. 
-**Note: Since hardware version 2 (after 04/04/18) flashing via DFU is no longer supported by the hardware.** 
-DFU requires a serial/TTL port (perhaps you need a serial/TTL-USB adapter) and a simple adapter. The DFU port is routed to the USB plug. Your adapter should consist of a USB socket which four pins are connected to your serial/TTL connector. The pinout is as follows:
-
-```
-Nitrokey USB Plug <-> Serial/TTL adapter
-Pin 1, VCC <-> VCC
-Pin 2, D-  <-> TX
-Pin 3, D+  <-> RX
-Pin 4, GND <-> GND
-```
-
-This diagram represents the pinout of the USB socket which you are going to solder:
-
-```
-  ################### 
-  #                 # 
-  # ############### # 
-  #                 # 
-  #                 # 
-  ################### 
-     #   #   #   #   
-     #   #   #   #    
-
-     1   2   3   4
-```
-
-To flash the firmware you need to bridge the two contact holes (e.g. with a wire) and only then connect (and power) the PCB to your adapter. The bridge triggers the hardware to boot into DFU mode. You may use [STM32 Flash Loader Demonstrator](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/flasher-stm32.html) (Windows only) or the open source command line tool [stm32flash](http://stm32flash.sourceforge.net).
-
+For instructions on flashing the device please have a look at the [Nitrokey Pro firmware
+repo](https://github.com/Nitrokey/nitrokey-pro-firmware).
