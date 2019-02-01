@@ -1,8 +1,10 @@
-### Module positions - created on 31.01.2019 10:59:52 ###
+### Module positions - created on 31.01.2019 10:59:39 ###
 ### Printed by Pcbnew version kicad (5.0.1)-4
 ## Unit = mm, Angle = deg.
-## Side : top
+## Side : All
 # Ref     Val          Package                      PosX       PosY       Rot  Side
+D1        DUAL_LED     KPHBM-2012SURKCGKC        10.9600    -1.2335  270.0000  bottom
+J1        SIM_JACKET   molex78646-3001            3.7400    -0.0535   90.0000  bottom
 C1        27pF         c_0402                    -6.3000     3.6965  270.0000  top
 C2        27pF         c_0402                    -8.8494     7.0993  180.0000  top
 C3        0.1uF        c_0402                    -9.0500    -0.8509    0.0000  top
