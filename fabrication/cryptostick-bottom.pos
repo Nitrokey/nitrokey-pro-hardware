@@ -1,0 +1,8 @@
+### Module positions - created on 2018. July 01., Sunday 23:17:51 ###
+### Printed by Pcbnew version pcbnew 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                  PosX       PosY       Rot  Side
+D1        DUAL_LED    KPHBM-2012SURKCGKC   -10.9600    -1.2335  270.0000  bottom
+J1        SIM_JACKET  molex78646-3001       -3.7465    -0.0635   90.0000  bottom
+## End
