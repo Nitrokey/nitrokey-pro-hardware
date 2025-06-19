@@ -16,3 +16,4 @@ Id;Designator;Package;Quantity;Designation;Digikey Part Number;Digikey URL
 15;J1;Molex 0786463001;1;SIM_JACKET;WM9364CT-ND;http://www.digikey.com/product-detail/en/0786463001/WM9364CT-ND/3770350
 16;R7;r_0402;1;1.5k;311-1.50KLRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-071K5L/311-1.50KLRCT-ND/729466
 17;R5,R6;r_0402;2;22;311-22.0LRCT-ND;https://www.digikey.com/product-detail/en/yageo/RC0402FR-0722RL/311-22.0LRCT-ND/729509
+18;R8;r_0402;1;20k;311-20.0KLRCT-ND;https://www.digikey.de/de/products/detail/yageo/RC0402FR-0720KL/726557
