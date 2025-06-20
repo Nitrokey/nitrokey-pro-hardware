@@ -1,0 +1,11 @@
+### Footprint positions - created on 2025-06-06T15:43:22+0200 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                           Package                            PosX       PosY       Rot  Side
+D1        DUAL_LED                      KPHBM-2012SURKCGKC             -10.9600    -1.2335  -90.0000  bottom
+FID3      Fiducial_0.5mm_Dia_1mm_Outer  Fiducial_0.5mm_Dia_1mm_Outer     8.5600    -7.3535    0.0000  bottom
+FID4      Fiducial_0.5mm_Dia_1mm_Outer  Fiducial_0.5mm_Dia_1mm_Outer   -11.4400     7.1465    0.0000  bottom
+J1        SIM_JACKET                    molex78646-3001                 -3.7500     0.1165   90.0000  bottom
+J2        USB_A                         USB-A-PLUG                      15.1805     0.4340    0.0000  bottom
+## End

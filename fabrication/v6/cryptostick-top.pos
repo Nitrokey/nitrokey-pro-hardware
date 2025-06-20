@@ -1,0 +1,31 @@
+### Footprint positions - created on 2025-06-06T15:43:22+0200 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                           Package                                               PosX       PosY       Rot  Side
+C1        27pF                          C_0402_1005Metric                                  -6.3000     3.6965   90.0000  top
+C2        27pF                          C_0402_1005Metric                                  -8.8494     7.0993    0.0000  top
+C3        0.1uF                         C_0402_1005Metric                                  -9.0500    -0.8509  180.0000  top
+C4        0.1uF                         C_0402_1005Metric                                  -9.0500    -2.4994    0.0000  top
+C5        0.1uF                         C_0402_1005Metric                                  -4.1000     3.6965   90.0000  top
+C6        0.1uF                         C_0402_1005Metric                                   1.9300     6.5565  180.0000  top
+C7        0.1uF                         C_0402_1005Metric                                  -1.3487    -5.5499    0.0000  top
+C8        0.1uF                         C_0402_1005Metric                                   1.9300     5.3265  180.0000  top
+C9        4.7uF                         C_0402_1005Metric                                  -1.3487    -6.9494  180.0000  top
+C10       0.01uF                        C_0402_1005Metric                                   1.2200    -2.2235    0.0000  top
+C11       4.7uF                         C_0402_1005Metric                                   1.9800    -6.5935  180.0000  top
+FID1      Fiducial_0.5mm_Dia_1mm_Outer  Fiducial_0.5mm_Dia_1mm_Outer                        8.6900    -4.1235    0.0000  top
+FID2      Fiducial_0.5mm_Dia_1mm_Outer  Fiducial_0.5mm_Dia_1mm_Outer                      -11.4400     7.1465    0.0000  top
+R1        510                           R_0402_1005Metric                                  -9.2000    -5.6035    0.0000  top
+R2        510                           R_0402_1005Metric                                  -9.2000    -6.9035    0.0000  top
+R3        10k                           R_0402_1005Metric                                  -4.0132    -6.9596  180.0000  top
+R4        10k                           R_0402_1005Metric                                  -5.7000     5.5965  180.0000  top
+R5        22                            R_0402_1005Metric                                   1.5200    -0.2535    0.0000  top
+R6        22                            R_0402_1005Metric                                   1.5748     0.8001    0.0000  top
+R7        1.5k                          R_0402_1005Metric                                   1.5748     1.8161    0.0000  top
+R8        20k                           R_0402_1005Metric                                  -2.5900     4.1265  -90.0000  top
+U1        STM32F103TB                   QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias    -4.2494    -1.3487    0.0000  top
+U2        CAT6217-330                   TSOT-23-5                                           1.8415    -4.3815  180.0000  top
+U3        DF5A5.6JE                     SOT-553                                             3.4600    -1.3235   90.0000  top
+X1        12MHz                         ABM8G                                              -8.7503     4.3510   90.0000  top
+## End
