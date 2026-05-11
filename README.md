@@ -27,6 +27,18 @@ Files
 
 Note that files under datasheet directory is copyrighted by vendors.
 
+Revisions
+=========
+
+| Revision | MCU                   |
+|----------|-----------------------|
+| 1        | ST STM32F103TB        |
+| 2        | ST STM32F103TB        |
+| 3        | ST STM32F103TB        |
+| 4        | ST 32F103B7           |
+| 5        | GigaDevice GD32F103CB |
+| 6        | ST STM32F103TB        |
+
 Terms and conditions
 ====================
 
